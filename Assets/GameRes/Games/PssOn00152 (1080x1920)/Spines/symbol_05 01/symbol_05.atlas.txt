@@ -1,0 +1,321 @@
+
+symbol_05.png
+size: 1952,1880
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 1030
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1
+firecracker/firecracker_00
+  rotate: true
+  xy: 1085, 794
+  size: 268, 263
+  orig: 344, 278
+  offset: 45, 4
+  index: -1
+firecracker/firecracker_01
+  rotate: true
+  xy: 1350, 794
+  size: 268, 263
+  orig: 344, 278
+  offset: 45, 2
+  index: -1
+firecracker/firecracker_02
+  rotate: true
+  xy: 1349, 278
+  size: 268, 263
+  orig: 344, 278
+  offset: 45, 2
+  index: -1
+firecracker/firecracker_03
+  rotate: true
+  xy: 1082, 277
+  size: 269, 265
+  orig: 344, 278
+  offset: 44, 0
+  index: -1
+firecracker/firecracker_04
+  rotate: true
+  xy: 1082, 1334
+  size: 270, 265
+  orig: 344, 278
+  offset: 43, 0
+  index: -1
+firecracker/firecracker_05
+  rotate: true
+  xy: 550, 1326
+  size: 272, 264
+  orig: 344, 278
+  offset: 41, 3
+  index: -1
+firecracker/firecracker_06
+  rotate: true
+  xy: 644, 1606
+  size: 272, 264
+  orig: 344, 278
+  offset: 39, 3
+  index: -1
+firecracker/firecracker_07
+  rotate: true
+  xy: 546, 547
+  size: 276, 269
+  orig: 344, 278
+  offset: 35, 0
+  index: -1
+firecracker/firecracker_08
+  rotate: true
+  xy: 541, 263
+  size: 278, 268
+  orig: 344, 278
+  offset: 31, 3
+  index: -1
+firecracker/firecracker_09
+  rotate: true
+  xy: 276, 825
+  size: 281, 271
+  orig: 344, 278
+  offset: 26, 0
+  index: -1
+firecracker/firecracker_10
+  rotate: true
+  xy: 2, 22
+  size: 282, 273
+  orig: 344, 278
+  offset: 21, 0
+  index: -1
+firecracker/firecracker_11
+  rotate: true
+  xy: 276, 1108
+  size: 282, 272
+  orig: 344, 278
+  offset: 17, 3
+  index: -1
+firecracker/firecracker_12
+  rotate: true
+  xy: 368, 1600
+  size: 278, 274
+  orig: 344, 278
+  offset: 17, 3
+  index: -1
+firecracker/firecracker_13
+  rotate: true
+  xy: 849, 2
+  size: 268, 274
+  orig: 344, 278
+  offset: 23, 3
+  index: -1
+firecracker/firecracker_14
+  rotate: true
+  xy: 1614, 294
+  size: 253, 274
+  orig: 344, 278
+  offset: 38, 3
+  index: -1
+firecracker/firecracker_15
+  rotate: true
+  xy: 817, 548
+  size: 241, 270
+  orig: 344, 278
+  offset: 52, 5
+  index: -1
+firecracker/firecracker_16
+  rotate: false
+  xy: 1601, 1066
+  size: 239, 268
+  orig: 344, 278
+  offset: 62, 5
+  index: -1
+firecracker/firecracker_17
+  rotate: false
+  xy: 1351, 1072
+  size: 248, 262
+  orig: 344, 278
+  offset: 67, 7
+  index: -1
+firecracker/firecracker_18
+  rotate: false
+  xy: 1655, 34
+  size: 253, 258
+  orig: 344, 278
+  offset: 70, 5
+  index: -1
+firecracker/firecracker_19
+  rotate: true
+  xy: 1615, 808
+  size: 256, 250
+  orig: 344, 278
+  offset: 71, 5
+  index: -1
+firecracker/firecracker_20
+  rotate: true
+  xy: 1707, 1621
+  size: 257, 240
+  orig: 344, 278
+  offset: 71, 7
+  index: -1
+firecracker/firecracker_21
+  rotate: true
+  xy: 1615, 1348
+  size: 260, 240
+  orig: 344, 278
+  offset: 69, 7
+  index: -1
+firecracker/firecracker_22
+  rotate: false
+  xy: 1632, 565
+  size: 263, 241
+  orig: 344, 278
+  offset: 66, 7
+  index: -1
+firecracker/firecracker_23
+  rotate: false
+  xy: 1364, 549
+  size: 266, 243
+  orig: 344, 278
+  offset: 61, 6
+  index: -1
+firecracker/firecracker_24
+  rotate: false
+  xy: 1089, 548
+  size: 273, 244
+  orig: 344, 278
+  offset: 52, 7
+  index: -1
+firecracker/firecracker_25
+  rotate: false
+  xy: 277, 7
+  size: 280, 246
+  orig: 344, 278
+  offset: 41, 5
+  index: -1
+firecracker/firecracker_26
+  rotate: false
+  xy: 559, 9
+  size: 288, 252
+  orig: 344, 278
+  offset: 29, 3
+  index: -1
+firecracker/firecracker_27
+  rotate: true
+  xy: 277, 255
+  size: 286, 262
+  orig: 344, 278
+  offset: 25, 3
+  index: -1
+firecracker/firecracker_28
+  rotate: true
+  xy: 276, 543
+  size: 280, 268
+  orig: 344, 278
+  offset: 25, 3
+  index: -1
+firecracker/firecracker_29
+  rotate: false
+  xy: 811, 272
+  size: 269, 273
+  orig: 344, 278
+  offset: 28, 0
+  index: -1
+firecracker/firecracker_30
+  rotate: false
+  xy: 549, 834
+  size: 266, 272
+  orig: 344, 278
+  offset: 31, 3
+  index: -1
+firecracker/firecracker_31
+  rotate: false
+  xy: 816, 1332
+  size: 264, 272
+  orig: 344, 278
+  offset: 35, 3
+  index: -1
+firecracker/firecracker_32
+  rotate: false
+  xy: 1176, 1606
+  size: 263, 272
+  orig: 344, 278
+  offset: 38, 3
+  index: -1
+firecracker/firecracker_33
+  rotate: false
+  xy: 910, 1606
+  size: 264, 272
+  orig: 344, 278
+  offset: 41, 3
+  index: -1
+firecracker/firecracker_34
+  rotate: false
+  xy: 1125, 5
+  size: 263, 270
+  orig: 344, 278
+  offset: 44, 3
+  index: -1
+firecracker/firecracker_35
+  rotate: false
+  xy: 1085, 1064
+  size: 264, 268
+  orig: 344, 278
+  offset: 45, 3
+  index: -1
+firecracker/firecracker_36
+  rotate: false
+  xy: 817, 1061
+  size: 266, 269
+  orig: 344, 278
+  offset: 45, 0
+  index: -1
+firecracker/firecracker_37
+  rotate: true
+  xy: 817, 791
+  size: 268, 266
+  orig: 344, 278
+  offset: 45, 3
+  index: -1
+firecracker/firecracker_38
+  rotate: true
+  xy: 1349, 1336
+  size: 268, 264
+  orig: 344, 278
+  offset: 45, 5
+  index: -1
+firecracker/firecracker_39
+  rotate: true
+  xy: 1441, 1610
+  size: 268, 264
+  orig: 344, 278
+  offset: 45, 5
+  index: -1
+firecracker/firecracker_40
+  rotate: true
+  xy: 1390, 8
+  size: 268, 263
+  orig: 344, 278
+  offset: 45, 4
+  index: -1
+frame
+  rotate: false
+  xy: 2, 668
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1
+frame_light
+  rotate: false
+  xy: 2, 1392
+  size: 364, 486
+  orig: 372, 492
+  offset: 4, 0
+  index: -1
+frame_win
+  rotate: false
+  xy: 2, 306
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1

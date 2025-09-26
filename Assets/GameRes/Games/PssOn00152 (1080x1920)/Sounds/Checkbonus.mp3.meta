@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2abc6a4f7c4139348b459a1d69e0064e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: games/psson00152 (1080x1920)/sounds/checkbonus.unity3d
+  assetBundleVariant: 

@@ -1,0 +1,153 @@
+
+trans.png
+size: 1918,1985
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+character
+  rotate: false
+  xy: 1300, 357
+  size: 574, 631
+  orig: 576, 633
+  offset: 1, 1
+  index: -1
+door
+  rotate: false
+  xy: 2, 490
+  size: 720, 1493
+  orig: 722, 1538
+  offset: 1, 1
+  index: -1
+flash
+  rotate: false
+  xy: 724, 181
+  size: 85, 85
+  orig: 116, 116
+  offset: 16, 15
+  index: -1
+flash4
+  rotate: true
+  xy: 1300, 283
+  size: 72, 94
+  orig: 100, 100
+  offset: 14, 4
+  index: -1
+ingot
+  rotate: false
+  xy: 724, 990
+  size: 719, 993
+  orig: 721, 995
+  offset: 1, 1
+  index: -1
+ingot2
+  rotate: true
+  xy: 1445, 1264
+  size: 719, 471
+  orig: 719, 488
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 724, 268
+  size: 720, 574
+  orig: 722, 624
+  offset: 1, 26
+  index: -1
+petal1
+  rotate: false
+  xy: 724, 111
+  size: 75, 68
+  orig: 83, 74
+  offset: 4, 3
+  index: -1
+petal10
+  rotate: false
+  xy: 1445, 1111
+  size: 30, 19
+  orig: 35, 23
+  offset: 3, 2
+  index: -1
+petal11
+  rotate: true
+  xy: 1501, 1157
+  size: 26, 17
+  orig: 30, 19
+  offset: 2, 1
+  index: -1
+petal12
+  rotate: false
+  xy: 811, 194
+  size: 49, 72
+  orig: 51, 74
+  offset: 1, 1
+  index: -1
+petal13
+  rotate: false
+  xy: 1396, 293
+  size: 48, 62
+  orig: 51, 64
+  offset: 2, 1
+  index: -1
+petal2
+  rotate: false
+  xy: 1445, 1185
+  size: 73, 77
+  orig: 84, 89
+  offset: 5, 8
+  index: -1
+petal3
+  rotate: false
+  xy: 1520, 1232
+  size: 52, 30
+  orig: 57, 34
+  offset: 2, 2
+  index: -1
+petal4
+  rotate: false
+  xy: 1445, 1132
+  size: 54, 51
+  orig: 59, 56
+  offset: 3, 3
+  index: -1
+petal5
+  rotate: false
+  xy: 1520, 1211
+  size: 26, 19
+  orig: 32, 28
+  offset: 2, 2
+  index: -1
+petal6
+  rotate: false
+  xy: 862, 249
+  size: 38, 17
+  orig: 42, 21
+  offset: 2, 2
+  index: -1
+petal7
+  rotate: false
+  xy: 724, 90
+  size: 42, 19
+  orig: 46, 23
+  offset: 2, 2
+  index: -1
+petal8
+  rotate: false
+  xy: 1574, 1248
+  size: 19, 14
+  orig: 23, 17
+  offset: 2, 2
+  index: -1
+petal9
+  rotate: false
+  xy: 1446, 336
+  size: 31, 19
+  orig: 35, 23
+  offset: 2, 2
+  index: -1
+sky
+  rotate: false
+  xy: 2, 2
+  size: 720, 486
+  orig: 722, 488
+  offset: 1, 1
+  index: -1

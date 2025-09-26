@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+	<assembly fullname="UnityEngine.AnimationModule">
+		<type fullname="UnityEngine.Animation" preserve="all" />
+		<type fullname="UnityEngine.AnimationClip" preserve="all" />
+	</assembly>
+	<assembly fullname="UnityEngine.VideoModule">
+		<type fullname="UnityEngine.Video.VideoClip" preserve="all" />
+		<type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
+	</assembly>
+	<assembly fullname="UnityEngine.TimelineModule">
+		<namespace fullname="UnityEngine.Timeline.ControlPayableAsset" preserve="all"/>
+		<namespace fullname="UnityEngine.Timeline.ControlTrack" preserve="all"/>
+		<namespace fullname="UnityEngine.Timeline.AnimationTrack" preserve="all"/>
+		<namespace fullname="UnityEngine.Timeline.TimelineAsset" preserve="all"/>
+	</assembly>
+	<assembly fullname="UnityEngine.DirectorModule">
+		<type fullname="UnityEngine.Playables.PlayableAsset" preserve="all"/>
+		<type fullname="UnityEngine.Playables.PlayableBehaviour" preserve="all"/>
+		<type fullname="UnityEngine.Playables.PlayableDirector" preserve="all"/>
+	</assembly>"
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+		<type fullname="UnityEngine.MeshCollider" preserve="all" />
+	</assembly>
+</linker>

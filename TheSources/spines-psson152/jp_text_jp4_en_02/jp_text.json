@@ -1,0 +1,1799 @@
+{
+"skeleton": { "hash": "Ddb8362NtSqnxqNOFYFA5dvbm4o", "spine": "3.7.94", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "coin_all", "parent": "root", "x": 640, "y": 360 },
+	{ "name": "coin_grand_all", "parent": "coin_all" },
+	{ "name": "coin_grand", "parent": "coin_grand_all" },
+	{ "name": "coin7", "parent": "coin_grand" },
+	{ "name": "coin8", "parent": "coin7" },
+	{ "name": "coin_b2", "parent": "coin_grand" },
+	{ "name": "coin_grand3", "parent": "coin_grand_all" },
+	{ "name": "coin13", "parent": "coin_grand3" },
+	{ "name": "coin14", "parent": "coin13" },
+	{ "name": "coin_b5", "parent": "coin_grand3" },
+	{ "name": "coin_grand5", "parent": "coin_grand_all" },
+	{ "name": "coin15", "parent": "coin_grand5" },
+	{ "name": "coin16", "parent": "coin15" },
+	{ "name": "coin_b6", "parent": "coin_grand5" },
+	{ "name": "coin_grand6", "parent": "coin_grand_all" },
+	{ "name": "coin17", "parent": "coin_grand6" },
+	{ "name": "coin18", "parent": "coin17" },
+	{ "name": "coin_b7", "parent": "coin_grand6" },
+	{ "name": "coin_grand7", "parent": "coin_grand_all" },
+	{ "name": "coin19", "parent": "coin_grand7" },
+	{ "name": "coin20", "parent": "coin19" },
+	{ "name": "coin_b8", "parent": "coin_grand7" },
+	{ "name": "coin_grand8", "parent": "coin_grand_all" },
+	{ "name": "coin21", "parent": "coin_grand8" },
+	{ "name": "coin22", "parent": "coin21" },
+	{ "name": "coin_b9", "parent": "coin_grand8" },
+	{ "name": "coin_grand9", "parent": "coin_grand_all" },
+	{ "name": "coin23", "parent": "coin_grand9" },
+	{ "name": "coin24", "parent": "coin23" },
+	{ "name": "coin_b10", "parent": "coin_grand9" },
+	{ "name": "coin_grand10", "parent": "coin_grand_all" },
+	{ "name": "coin25", "parent": "coin_grand10" },
+	{ "name": "coin26", "parent": "coin25" },
+	{ "name": "coin_b11", "parent": "coin_grand10" },
+	{ "name": "coin_grand11", "parent": "coin_grand_all" },
+	{ "name": "coin27", "parent": "coin_grand11" },
+	{ "name": "coin28", "parent": "coin27" },
+	{ "name": "coin_b12", "parent": "coin_grand11" },
+	{ "name": "coin_grand12", "parent": "coin_grand_all" },
+	{ "name": "coin29", "parent": "coin_grand12" },
+	{ "name": "coin30", "parent": "coin29" },
+	{ "name": "coin_b13", "parent": "coin_grand12" },
+	{ "name": "coin_grand13", "parent": "coin_grand_all" },
+	{ "name": "coin31", "parent": "coin_grand13" },
+	{ "name": "coin32", "parent": "coin31" },
+	{ "name": "coin_b14", "parent": "coin_grand13" },
+	{ "name": "coin_grand14", "parent": "coin_grand_all" },
+	{ "name": "coin33", "parent": "coin_grand14" },
+	{ "name": "coin34", "parent": "coin33" },
+	{ "name": "coin_b15", "parent": "coin_grand14" },
+	{ "name": "coin_grand15", "parent": "coin_grand_all" },
+	{ "name": "coin35", "parent": "coin_grand15" },
+	{ "name": "coin36", "parent": "coin35" },
+	{ "name": "coin_b16", "parent": "coin_grand15" },
+	{ "name": "coin_grand16", "parent": "coin_grand_all" },
+	{ "name": "coin37", "parent": "coin_grand16" },
+	{ "name": "coin38", "parent": "coin37" },
+	{ "name": "coin_b17", "parent": "coin_grand16" },
+	{ "name": "coin_grand17", "parent": "coin_grand_all" },
+	{ "name": "coin39", "parent": "coin_grand17" },
+	{ "name": "coin40", "parent": "coin39" },
+	{ "name": "coin_b18", "parent": "coin_grand17" },
+	{ "name": "coin_star_to_grand", "parent": "coin_all" },
+	{ "name": "coin_star7", "parent": "coin_star_to_grand" },
+	{ "name": "coin71", "parent": "coin_star7" },
+	{ "name": "coin72", "parent": "coin71" },
+	{ "name": "coin_grand18", "parent": "coin_grand_all" },
+	{ "name": "coin51", "parent": "coin_grand18" },
+	{ "name": "coin52", "parent": "coin51" },
+	{ "name": "coin_b25", "parent": "coin_grand18" },
+	{ "name": "coin_grand19", "parent": "coin_grand_all" },
+	{ "name": "coin53", "parent": "coin_grand19" },
+	{ "name": "coin54", "parent": "coin53" },
+	{ "name": "coin_b26", "parent": "coin_grand19" },
+	{ "name": "coin_grand20", "parent": "coin_grand_all" },
+	{ "name": "coin65", "parent": "coin_grand20" },
+	{ "name": "coin66", "parent": "coin65" },
+	{ "name": "coin_b27", "parent": "coin_grand20" },
+	{ "name": "coin_grand24", "parent": "coin_grand_all" },
+	{ "name": "coin67", "parent": "coin_grand24" },
+	{ "name": "coin68", "parent": "coin67" },
+	{ "name": "coin_b28", "parent": "coin_grand24" },
+	{ "name": "coin_b29", "parent": "coin_grand24" }
+],
+"slots": [
+	{ "name": "eng/Grand2", "bone": "coin72" },
+	{ "name": "eng/Grand3", "bone": "coin8" },
+	{ "name": "eng/Grand4", "bone": "coin_b2" },
+	{ "name": "eng/Grand5", "bone": "coin14" },
+	{ "name": "eng/Grand6", "bone": "coin_b5" },
+	{ "name": "eng/Grand7", "bone": "coin16" },
+	{ "name": "eng/Grand8", "bone": "coin_b6" },
+	{ "name": "eng/Grand9", "bone": "coin18" },
+	{ "name": "eng/Grand10", "bone": "coin_b7" },
+	{ "name": "eng/Grand11", "bone": "coin20" },
+	{ "name": "eng/Grand12", "bone": "coin_b8" },
+	{ "name": "eng/Grand13", "bone": "coin22" },
+	{ "name": "eng/Grand14", "bone": "coin_b9" },
+	{ "name": "eng/Grand15", "bone": "coin24" },
+	{ "name": "eng/Grand16", "bone": "coin_b10" },
+	{ "name": "eng/Grand17", "bone": "coin26" },
+	{ "name": "eng/Grand18", "bone": "coin_b11" },
+	{ "name": "eng/Grand19", "bone": "coin28" },
+	{ "name": "eng/Grand20", "bone": "coin_b12" },
+	{ "name": "eng/Grand21", "bone": "coin30" },
+	{ "name": "eng/Grand22", "bone": "coin_b13" },
+	{ "name": "eng/Grand23", "bone": "coin32" },
+	{ "name": "eng/Grand24", "bone": "coin_b14" },
+	{ "name": "eng/Grand25", "bone": "coin34" },
+	{ "name": "eng/Grand26", "bone": "coin_b15" },
+	{ "name": "eng/Grand27", "bone": "coin36" },
+	{ "name": "eng/Grand28", "bone": "coin_b16" },
+	{ "name": "eng/Grand29", "bone": "coin38" },
+	{ "name": "eng/Grand30", "bone": "coin_b17" },
+	{ "name": "eng/Grand31", "bone": "coin40" },
+	{ "name": "eng/Grand32", "bone": "coin_b18" },
+	{ "name": "eng/Grand33", "bone": "coin52" },
+	{ "name": "eng/Grand34", "bone": "coin_b25" },
+	{ "name": "eng/Grand35", "bone": "coin54" },
+	{ "name": "eng/Grand36", "bone": "coin_b26" },
+	{ "name": "eng/Grand37", "bone": "coin66" },
+	{ "name": "eng/Grand38", "bone": "coin_b27" },
+	{ "name": "eng/Grand41", "bone": "coin68" },
+	{ "name": "eng/Grand42", "bone": "coin_b28" },
+	{ "name": "eng/Grand43", "bone": "coin_b29", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"eng/Grand10": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand11": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand12": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand13": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand14": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand15": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand16": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand17": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand18": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand19": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand2": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand20": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand21": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand22": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand23": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand24": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand25": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand26": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand27": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand28": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand29": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand3": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand30": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand31": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand32": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand33": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand34": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand35": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand36": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand37": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand38": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand4": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand41": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand42": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand43": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand5": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand6": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand7": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand8": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		},
+		"eng/Grand9": {
+			"Grand": { "width": 282, "height": 102 },
+			"Major": { "width": 282, "height": 102 },
+			"Mini": { "width": 282, "height": 102 },
+			"Minor": { "width": 282, "height": 102 }
+		}
+	},
+	"grand": {
+		"eng/Grand10": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand11": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand12": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand13": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand14": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand15": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand16": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand17": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand18": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand19": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand2": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand20": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand21": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand22": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand23": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand24": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand25": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand26": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand27": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand28": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand29": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand3": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand30": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand31": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand32": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand33": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand34": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand35": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand36": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand37": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand38": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand4": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand41": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand42": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand43": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand5": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand6": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand7": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand8": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		},
+		"eng/Grand9": {
+			"jackpot": { "name": "Grand", "width": 282, "height": 102 }
+		}
+	},
+	"major": {
+		"eng/Grand10": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand11": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand12": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand13": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand14": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand15": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand16": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand17": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand18": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand19": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand2": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand20": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand21": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand22": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand23": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand24": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand25": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand26": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand27": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand28": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand29": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand3": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand30": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand31": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand32": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand33": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand34": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand35": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand36": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand37": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand38": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand4": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand41": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand42": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand43": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand5": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand6": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand7": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand8": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		},
+		"eng/Grand9": {
+			"jackpot": { "name": "Major", "width": 282, "height": 102 }
+		}
+	},
+	"mini": {
+		"eng/Grand10": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand11": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand12": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand13": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand14": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand15": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand16": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand17": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand18": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand19": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand2": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand20": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand21": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand22": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand23": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand24": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand25": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand26": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand27": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand28": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand29": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand3": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand30": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand31": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand32": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand33": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand34": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand35": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand36": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand37": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand38": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand4": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand41": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand42": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand43": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand5": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand6": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand7": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand8": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		},
+		"eng/Grand9": {
+			"jackpot": { "name": "Mini", "width": 282, "height": 102 }
+		}
+	},
+	"minor": {
+		"eng/Grand10": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand11": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand12": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand13": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand14": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand15": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand16": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand17": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand18": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand19": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand2": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand20": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand21": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand22": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand23": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand24": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand25": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand26": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand27": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand28": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand29": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand3": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand30": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand31": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand32": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand33": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand34": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand35": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand36": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand37": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand38": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand4": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand41": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand42": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand43": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand5": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand6": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand7": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand8": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		},
+		"eng/Grand9": {
+			"jackpot": { "name": "Minor", "width": 282, "height": 102 }
+		}
+	}
+},
+"events": {
+	"change": {}
+},
+"animations": {
+	"begin_m": {
+		"slots": {
+			"eng/Grand2": {
+				"attachment": [
+					{ "time": 4.0667, "name": "Grand" },
+					{ "time": 4.5333, "name": null }
+				]
+			},
+			"eng/Grand3": {
+				"attachment": [
+					{ "time": 4.5333, "name": "Grand" },
+					{ "time": 4.8333, "name": null }
+				]
+			},
+			"eng/Grand4": {
+				"attachment": [
+					{ "time": 4.8333, "name": "Major" },
+					{ "time": 5.1667, "name": null }
+				]
+			},
+			"eng/Grand5": {
+				"attachment": [
+					{ "time": 5.1667, "name": "Major" },
+					{ "time": 5.4, "name": null }
+				]
+			},
+			"eng/Grand6": {
+				"attachment": [
+					{ "time": 5.4, "name": "Minor" },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"eng/Grand7": {
+				"attachment": [
+					{ "time": 5.6667, "name": "Minor" },
+					{ "time": 5.8, "name": null }
+				]
+			},
+			"eng/Grand8": {
+				"attachment": [
+					{ "time": 5.7667, "name": "Mini" },
+					{ "time": 5.9, "name": null }
+				]
+			},
+			"eng/Grand9": {
+				"attachment": [
+					{ "time": 5.9, "name": "Mini" },
+					{ "time": 6, "name": null }
+				]
+			},
+			"eng/Grand10": {
+				"attachment": [
+					{ "time": 5.9667, "name": "jackpot" },
+					{ "time": 6.0667, "name": null }
+				]
+			},
+			"eng/Grand11": {
+				"attachment": [
+					{ "time": 6.0667, "name": "jackpot" },
+					{ "time": 6.1667, "name": null }
+				]
+			},
+			"eng/Grand12": {
+				"attachment": [
+					{ "time": 6.1333, "name": "jackpot" },
+					{ "time": 6.2333, "name": null }
+				]
+			},
+			"eng/Grand13": {
+				"attachment": [
+					{ "time": 6.2333, "name": "jackpot" },
+					{ "time": 6.3333, "name": null }
+				]
+			},
+			"eng/Grand14": {
+				"attachment": [
+					{ "time": 6.3, "name": "jackpot" },
+					{ "time": 6.4, "name": null }
+				]
+			},
+			"eng/Grand15": {
+				"attachment": [
+					{ "time": 6.4, "name": "jackpot" },
+					{ "time": 6.5, "name": null }
+				]
+			},
+			"eng/Grand16": {
+				"attachment": [
+					{ "time": 6.4667, "name": "jackpot" },
+					{ "time": 6.5667, "name": null }
+				]
+			},
+			"eng/Grand17": {
+				"attachment": [
+					{ "time": 6.5667, "name": "jackpot" },
+					{ "time": 6.6667, "name": null }
+				]
+			},
+			"eng/Grand18": {
+				"attachment": [
+					{ "time": 6.6333, "name": "jackpot" },
+					{ "time": 6.7333, "name": null }
+				]
+			},
+			"eng/Grand19": {
+				"attachment": [
+					{ "time": 6.7333, "name": "jackpot" },
+					{ "time": 6.8333, "name": null }
+				]
+			},
+			"eng/Grand20": {
+				"attachment": [
+					{ "time": 6.8, "name": "jackpot" },
+					{ "time": 6.9, "name": null }
+				]
+			},
+			"eng/Grand21": {
+				"attachment": [
+					{ "time": 6.9, "name": "jackpot" },
+					{ "time": 7, "name": null }
+				]
+			},
+			"eng/Grand22": {
+				"attachment": [
+					{ "time": 6.9667, "name": "jackpot" },
+					{ "time": 7.0667, "name": null }
+				]
+			},
+			"eng/Grand23": {
+				"attachment": [
+					{ "time": 7.0667, "name": "jackpot" },
+					{ "time": 7.1667, "name": null }
+				]
+			},
+			"eng/Grand24": {
+				"attachment": [
+					{ "time": 7.1333, "name": "jackpot" },
+					{ "time": 7.2333, "name": null }
+				]
+			},
+			"eng/Grand25": {
+				"attachment": [
+					{ "time": 7.2333, "name": "jackpot" },
+					{ "time": 7.3333, "name": null }
+				]
+			},
+			"eng/Grand26": {
+				"attachment": [
+					{ "time": 7.3, "name": "jackpot" },
+					{ "time": 7.4, "name": null }
+				]
+			},
+			"eng/Grand27": {
+				"attachment": [
+					{ "time": 7.4, "name": "jackpot" },
+					{ "time": 7.5, "name": null }
+				]
+			},
+			"eng/Grand28": {
+				"attachment": [
+					{ "time": 7.4667, "name": "jackpot" },
+					{ "time": 7.5667, "name": null }
+				]
+			},
+			"eng/Grand29": {
+				"attachment": [
+					{ "time": 7.5667, "name": "jackpot" },
+					{ "time": 7.7, "name": null }
+				]
+			},
+			"eng/Grand30": {
+				"attachment": [
+					{ "time": 7.6667, "name": "jackpot" },
+					{ "time": 7.8, "name": null }
+				]
+			},
+			"eng/Grand31": {
+				"attachment": [
+					{ "time": 7.8, "name": "jackpot" },
+					{ "time": 8, "name": null }
+				]
+			},
+			"eng/Grand32": {
+				"attachment": [
+					{ "time": 7.9667, "name": "jackpot" },
+					{ "time": 8.1667, "name": null }
+				]
+			},
+			"eng/Grand33": {
+				"attachment": [
+					{ "time": 8.1667, "name": "jackpot" },
+					{ "time": 8.5, "name": null }
+				]
+			},
+			"eng/Grand34": {
+				"attachment": [
+					{ "time": 8.4333, "name": "jackpot" },
+					{ "time": 8.8333, "name": null }
+				]
+			},
+			"eng/Grand35": {
+				"attachment": [
+					{ "time": 8.8333, "name": "jackpot" },
+					{ "time": 9.4, "name": null }
+				]
+			},
+			"eng/Grand36": {
+				"attachment": [
+					{ "time": 9.3, "name": "jackpot" },
+					{ "time": 9.8333, "name": null }
+				]
+			},
+			"eng/Grand37": {
+				"attachment": [
+					{ "time": 9.8333, "name": "jackpot" },
+					{ "time": 10.6, "name": null }
+				]
+			},
+			"eng/Grand38": {
+				"attachment": [
+					{ "time": 10.4667, "name": "jackpot" },
+					{ "time": 11.1667, "name": null }
+				]
+			},
+			"eng/Grand41": {
+				"attachment": [
+					{ "time": 11.1667, "name": "jackpot" },
+					{ "time": 11.9, "name": null }
+				]
+			},
+			"eng/Grand42": {
+				"attachment": [
+					{ "time": 11.8, "name": "jackpot" }
+				]
+			},
+			"eng/Grand43": {
+				"color": [
+					{ "time": 0, "color": "ffffff7b", "curve": "stepped" },
+					{
+						"time": 12.0667,
+						"color": "ffffff7b",
+						"curve": [ 0, 0.15, 0.75, 1 ]
+					},
+					{ "time": 12.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 12.0667, "name": "jackpot" },
+					{ "time": 12.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"coin_grand_all": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 12.0333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.417, 1 ]
+					},
+					{ "time": 12.3333, "x": 0, "y": 178.45 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 12.0333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.03, 0.16, 0.441, 0.99 ]
+					},
+					{
+						"time": 12.2,
+						"x": 1.4,
+						"y": 1.4,
+						"curve": [ 0.375, 0, 1, 0.84 ]
+					},
+					{
+						"time": 12.5333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0, 0, 0.75, 1 ]
+					},
+					{ "time": 12.7333, "x": 1.13, "y": 1.13 }
+				]
+			},
+			"coin8": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 4.5333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.381, 0, 1, 1 ]
+					},
+					{ "time": 4.8333, "x": 0, "y": 1 }
+				]
+			},
+			"coin7": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 4.5333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 1, 1 ]
+					},
+					{ "time": 4.8333, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b2": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 4.8333, "x": 36.61, "y": 0 },
+					{ "time": 5.1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 4.8333, "x": 0, "y": 1 },
+					{ "time": 5.1, "x": 1, "y": 1 }
+				]
+			},
+			"coin14": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.1667, "x": 1, "y": 1 },
+					{ "time": 5.4, "x": 0, "y": 1 }
+				]
+			},
+			"coin13": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.1667, "x": 0, "y": 0 },
+					{ "time": 5.4, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b5": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 5.4, "x": 36.61, "y": 0 },
+					{ "time": 5.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 5.4, "x": 0, "y": 1 },
+					{ "time": 5.6333, "x": 1, "y": 1 }
+				]
+			},
+			"coin16": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 },
+					{ "time": 5.7667, "x": 0, "y": 1 }
+				]
+			},
+			"coin15": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 },
+					{ "time": 5.7667, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b6": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 5.7667, "x": 36.61, "y": 0 },
+					{ "time": 5.9, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 5.7667, "x": 0, "y": 1 },
+					{ "time": 5.9, "x": 1, "y": 1 }
+				]
+			},
+			"coin18": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.9, "x": 1, "y": 1 },
+					{ "time": 5.9667, "x": 0.065, "y": 1 },
+					{ "time": 6, "x": 0, "y": 1 }
+				]
+			},
+			"coin17": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.9, "x": 0, "y": 0 },
+					{ "time": 5.9667, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b7": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 5.9667, "x": 36.61, "y": 0 },
+					{ "time": 6.0667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 5.9667, "x": 0, "y": 1 },
+					{ "time": 6.0667, "x": 1, "y": 1 }
+				]
+			},
+			"coin20": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.0667, "x": 1, "y": 1 },
+					{ "time": 6.1333, "x": 0.065, "y": 1 },
+					{ "time": 6.1667, "x": 0, "y": 1 }
+				]
+			},
+			"coin19": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.0667, "x": 0, "y": 0 },
+					{ "time": 6.1333, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b8": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.1333, "x": 36.61, "y": 0 },
+					{ "time": 6.2333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.1333, "x": 0, "y": 1 },
+					{ "time": 6.2333, "x": 1, "y": 1 }
+				]
+			},
+			"coin22": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.2333, "x": 1, "y": 1 },
+					{ "time": 6.3, "x": 0.065, "y": 1 },
+					{ "time": 6.3333, "x": 0, "y": 1 }
+				]
+			},
+			"coin21": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.2333, "x": 0, "y": 0 },
+					{ "time": 6.3, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b9": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.3, "x": 36.61, "y": 0 },
+					{ "time": 6.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.3, "x": 0, "y": 1 },
+					{ "time": 6.4, "x": 1, "y": 1 }
+				]
+			},
+			"coin24": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.4, "x": 1, "y": 1 },
+					{ "time": 6.4667, "x": 0.065, "y": 1 },
+					{ "time": 6.5, "x": 0, "y": 1 }
+				]
+			},
+			"coin23": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.4, "x": 0, "y": 0 },
+					{ "time": 6.4667, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b10": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.4667, "x": 36.61, "y": 0 },
+					{ "time": 6.5667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.4667, "x": 0, "y": 1 },
+					{ "time": 6.5667, "x": 1, "y": 1 }
+				]
+			},
+			"coin26": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.5667, "x": 1, "y": 1 },
+					{ "time": 6.6333, "x": 0.065, "y": 1 },
+					{ "time": 6.6667, "x": 0, "y": 1 }
+				]
+			},
+			"coin25": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.5667, "x": 0, "y": 0 },
+					{ "time": 6.6333, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b11": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.6333, "x": 36.61, "y": 0 },
+					{ "time": 6.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.6333, "x": 0, "y": 1 },
+					{ "time": 6.7333, "x": 1, "y": 1 }
+				]
+			},
+			"coin28": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.7333, "x": 1, "y": 1 },
+					{ "time": 6.8, "x": 0.065, "y": 1 },
+					{ "time": 6.8333, "x": 0, "y": 1 }
+				]
+			},
+			"coin27": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.7333, "x": 0, "y": 0 },
+					{ "time": 6.8, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b12": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.8, "x": 36.61, "y": 0 },
+					{ "time": 6.9, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.8, "x": 0, "y": 1 },
+					{ "time": 6.9, "x": 1, "y": 1 }
+				]
+			},
+			"coin30": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.9, "x": 1, "y": 1 },
+					{ "time": 6.9667, "x": 0.065, "y": 1 },
+					{ "time": 7, "x": 0, "y": 1 }
+				]
+			},
+			"coin29": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.9, "x": 0, "y": 0 },
+					{ "time": 6.9667, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b13": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 6.9667, "x": 36.61, "y": 0 },
+					{ "time": 7.0667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 6.9667, "x": 0, "y": 1 },
+					{ "time": 7.0667, "x": 1, "y": 1 }
+				]
+			},
+			"coin32": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.0667, "x": 1, "y": 1 },
+					{ "time": 7.1333, "x": 0.065, "y": 1 },
+					{ "time": 7.1667, "x": 0, "y": 1 }
+				]
+			},
+			"coin31": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.0667, "x": 0, "y": 0 },
+					{ "time": 7.1333, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b14": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 7.1333, "x": 36.61, "y": 0 },
+					{ "time": 7.2333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 7.1333, "x": 0, "y": 1 },
+					{ "time": 7.2333, "x": 1, "y": 1 }
+				]
+			},
+			"coin34": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.2333, "x": 1, "y": 1 },
+					{ "time": 7.3, "x": 0.065, "y": 1 },
+					{ "time": 7.3333, "x": 0, "y": 1 }
+				]
+			},
+			"coin33": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.2333, "x": 0, "y": 0 },
+					{ "time": 7.3, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b15": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 7.3, "x": 36.61, "y": 0 },
+					{ "time": 7.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 7.3, "x": 0, "y": 1 },
+					{ "time": 7.4, "x": 1, "y": 1 }
+				]
+			},
+			"coin36": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.4, "x": 1, "y": 1 },
+					{ "time": 7.4667, "x": 0.065, "y": 1 },
+					{ "time": 7.5, "x": 0, "y": 1 }
+				]
+			},
+			"coin35": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.4, "x": 0, "y": 0 },
+					{ "time": 7.4667, "x": -21.19, "y": 0 }
+				]
+			},
+			"coin_b16": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 7.4667, "x": 36.61, "y": 0 },
+					{ "time": 7.5667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 7.4667, "x": 0, "y": 1 },
+					{ "time": 7.5667, "x": 1, "y": 1 }
+				]
+			},
+			"coin38": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.5667, "x": 1, "y": 1 },
+					{ "time": 7.6667, "x": 0, "y": 1 }
+				]
+			},
+			"coin37": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.5667, "x": 0, "y": 0 },
+					{ "time": 7.6667, "x": -30.27, "y": 0 }
+				]
+			},
+			"coin_b17": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 7.6667, "x": 36.61, "y": 0 },
+					{ "time": 7.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 7.6667, "x": 0, "y": 1 },
+					{ "time": 7.8, "x": 1, "y": 1 }
+				]
+			},
+			"coin40": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.8, "x": 1, "y": 1 },
+					{ "time": 7.9667, "x": 0, "y": 1 }
+				]
+			},
+			"coin39": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.8, "x": 0, "y": 0 },
+					{ "time": 7.9667, "x": -41.16, "y": 0 }
+				]
+			},
+			"coin_b18": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 7.9667, "x": 36.61, "y": 0 },
+					{ "time": 8.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 7.9667, "x": 0, "y": 1 },
+					{ "time": 8.1333, "x": 1, "y": 1 }
+				]
+			},
+			"coin72": {
+				"translate": [
+					{ "time": 0, "x": -26.67, "y": 0, "curve": "stepped" },
+					{
+						"time": 3.8667,
+						"x": -26.67,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.0667, "x": -1.78, "y": 0 },
+					{ "time": 4.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.8667, "x": 0, "y": 0 },
+					{ "time": 4.0667, "x": 0, "y": 1 },
+					{ "time": 4.5333, "x": 1, "y": 1 }
+				]
+			},
+			"coin71": {
+				"translate": [
+					{ "time": 0, "x": 34.44, "y": 0, "curve": "stepped" },
+					{
+						"time": 4.0667,
+						"x": 34.44,
+						"y": 0,
+						"curve": [ 0, 0, 0.75, 1 ]
+					},
+					{ "time": 4.5333, "x": 0, "y": 0 }
+				]
+			},
+			"coin52": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 8.1667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.381, 0, 1, 1 ]
+					},
+					{ "time": 8.4333, "x": 0, "y": 1 }
+				]
+			},
+			"coin51": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 8.1667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 1, 1 ]
+					},
+					{ "time": 8.4333, "x": -39.35, "y": 0 }
+				]
+			},
+			"coin_b25": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 8.4333, "x": 36.61, "y": 0 },
+					{ "time": 8.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 8.4333, "x": 0, "y": 1 },
+					{ "time": 8.8333, "x": 1, "y": 1 }
+				]
+			},
+			"coin54": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 8.8333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.381, 0, 1, 1 ]
+					},
+					{ "time": 9.3, "x": 0, "y": 1 }
+				]
+			},
+			"coin53": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 8.8333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 1, 1 ]
+					},
+					{ "time": 9.3, "x": -40.26, "y": 0 }
+				]
+			},
+			"coin_b26": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 9.3, "x": 36.61, "y": 0 },
+					{ "time": 9.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 9.3, "x": 0, "y": 1 },
+					{ "time": 9.8333, "x": 1, "y": 1 }
+				]
+			},
+			"coin66": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 9.8333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.381, 0, 1, 1 ]
+					},
+					{ "time": 10.4667, "x": 0, "y": 1 }
+				]
+			},
+			"coin65": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 9.8333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 1, 1 ]
+					},
+					{ "time": 10.4667, "x": -38.44, "y": 0 }
+				]
+			},
+			"coin_b27": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{ "time": 10.4667, "x": 36.61, "y": 0 },
+					{ "time": 11.1667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{ "time": 10.4667, "x": 0, "y": 1 },
+					{ "time": 11.1667, "x": 1, "y": 1 }
+				]
+			},
+			"coin68": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 11.1667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.381, 0, 1, 1 ]
+					},
+					{ "time": 11.8, "x": 0, "y": 1 }
+				]
+			},
+			"coin67": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 11.1667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 1, 1 ]
+					},
+					{ "time": 11.8, "x": -37.53, "y": 0 }
+				]
+			},
+			"coin_b28": {
+				"translate": [
+					{ "time": 0, "x": 36.61, "y": 0, "curve": "stepped" },
+					{
+						"time": 11.8,
+						"x": 36.61,
+						"y": 0,
+						"curve": [ 0.458, 0, 0.488, 1 ]
+					},
+					{ "time": 12.0667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1, "curve": "stepped" },
+					{
+						"time": 11.8,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.458, 0, 0.488, 1 ]
+					},
+					{ "time": 12.0667, "x": 1, "y": 1 }
+				]
+			},
+			"coin_b29": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 12.0667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.15, 0.75, 1 ]
+					},
+					{ "time": 12.4, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"coin_all": {
+				"translate": [
+					{ "time": 0, "x": -280, "y": 347.41 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 5.9667, "name": "change" },
+			{ "time": 6.1333, "name": "change" },
+			{ "time": 6.3, "name": "change" },
+			{ "time": 6.4667, "name": "change" },
+			{ "time": 6.6333, "name": "change" },
+			{ "time": 6.8, "name": "change" },
+			{ "time": 6.9667, "name": "change" },
+			{ "time": 7.1333, "name": "change" },
+			{ "time": 7.3, "name": "change" },
+			{ "time": 7.4667, "name": "change" },
+			{ "time": 7.6667, "name": "change" },
+			{ "time": 7.9667, "name": "change" },
+			{ "time": 8.4333, "name": "change" },
+			{ "time": 9.3, "name": "change" },
+			{ "time": 10.4667, "name": "change" },
+			{ "time": 11.8, "name": "change" }
+		]
+	},
+	"end": {
+		"slots": {
+			"eng/Grand42": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

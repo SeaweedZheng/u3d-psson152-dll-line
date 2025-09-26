@@ -1,0 +1,21 @@
+{
+  "updated_at": 1758619715796,
+  "data": [
+    {
+      "agent_name": "出货产品包",
+      "app": "--",
+      "app_key": "PssOn00152Line_release_machine_20250923172835",
+      "app_version": "3.1.0",
+      "version_suggest": null,
+      "hotfix_url": "./Product/release/android/3_1_0"
+    },
+    {
+      "agent_name": "测试包",
+      "app": "--",
+      "app_key": "PssOn00152Line_debug_machine_20250919213448",
+      "app_version": "3.0.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/3"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+	"msgid": 202,
+	"pool_list": [{
+		"id": 3,
+		"name": "JP1",
+		"current_cent": {
+			"low": 6920482,
+			"high": 0,
+			"unsigned": true
+		},
+		"enable": true,
+		"max_cent": {
+			"low": 11000000,
+			"high": 0,
+			"unsigned": true
+		}
+	}, {
+		"id": 2,
+		"name": "JP2",
+		"current_cent": {
+			"low": 1513475,
+			"high": 0,
+			"unsigned": true
+		},
+		"enable": true,
+		"max_cent": {
+			"low": 2500000,
+			"high": 0,
+			"unsigned": true
+		}
+	}, {
+		"id": 1,
+		"name": "JP3",
+		"current_cent": {
+			"low": 244074,
+			"high": 0,
+			"unsigned": true
+		},
+		"enable": true,
+		"max_cent": {
+			"low": 300000,
+			"high": 0,
+			"unsigned": true
+		}
+	}, {
+		"id": 0,
+		"name": "JP4",
+		"current_cent": {
+			"low": 10582,
+			"high": 0,
+			"unsigned": true
+		},
+		"enable": true,
+		"max_cent": {
+			"low": 30000,
+			"high": 0,
+			"unsigned": true
+		}
+	}],
+	"status_code": 0,
+	"type": 1,
+	"lucky_draw_config": null
+}

@@ -1,0 +1,55 @@
+
+5kind.png
+size: 988,1080
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5
+  rotate: false
+  xy: 490, 681
+  size: 332, 394
+  orig: 334, 396
+  offset: 1, 1
+  index: -1
+glowlight
+  rotate: true
+  xy: 418, 17
+  size: 576, 244
+  orig: 604, 252
+  offset: 14, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 595
+  size: 486, 480
+  orig: 506, 506
+  offset: 18, 13
+  index: -1
+point
+  rotate: true
+  xy: 2, 88
+  size: 505, 414
+  orig: 506, 414
+  offset: 1, 0
+  index: -1
+starlight_1
+  rotate: false
+  xy: 824, 917
+  size: 159, 158
+  orig: 166, 164
+  offset: 4, 4
+  index: -1
+線_cn
+  rotate: true
+  xy: 664, 335
+  size: 344, 310
+  orig: 346, 312
+  offset: 1, 1
+  index: -1
+連_cn
+  rotate: true
+  xy: 664, 2
+  size: 331, 310
+  orig: 334, 314
+  offset: 1, 1
+  index: -1

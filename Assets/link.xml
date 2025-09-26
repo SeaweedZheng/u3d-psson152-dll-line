@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+	<!-- [solve error]: MissingMethodException: UnityEngine.ImageConversion::EncodeToPNG(UnityEngine.Texture2D)-->
+	<assembly fullname="UnityEngine.ImageConversionModule">
+		<type fullname="UnityEngine.ImageConversion" preserve="all" />
+	</assembly>	
+	<!--assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.ImageConversion" preserve="all" />
+	</assembly-->
+</linker>

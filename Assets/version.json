@@ -1,0 +1,34 @@
+{
+	"updated_at": 1740655990369,
+	"hotfix_info_id": "xxxxxxx",
+	"hotfix_version": "1.1.1",
+	"asset_bundle": {
+		"asset_bundle_dir": "./GameRes/",
+		"manifest": {
+			"url": "./GameRes/GameRes",
+			"hash": "xxxxxx"
+		}
+	},
+	"hotfix_dll": {
+		"HotFix": {
+			"url": "./GameDll/HotFix.dll.bytes",
+			"hash": "xxxxxx"
+		},
+		"Base": {
+			"url": "./GameDll/Base.dll.bytes",
+			"hash": "xxxxxx"
+		},
+		"LuBan": {
+			"url": "./GameDll/LuBan.dll.bytes",
+			"hash": "xxxxxx"
+		},
+		"Sqlite": {
+			"url": "./GameDll/Sqlite.dll.bytes",
+			"hash": "xxxxxx"
+		},
+		"ConstData": {
+			"url": "./GameDll/ConstData.dll.bytes",
+			"hash": "xxxxxx"
+		}
+	}
+}

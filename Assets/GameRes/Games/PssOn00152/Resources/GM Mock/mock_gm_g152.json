@@ -1,0 +1,68 @@
+{
+	"//游戏i52，特殊赢牌的mock数据":"",
+	"game_id": 152,
+	"mock_special_data": {
+		"5kind": [{
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__26__5kind.json"],
+			"des": "普通游戏-5连线",
+			"nick_name": "5连线"
+		}, {
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__12__5kind.json"],
+			"des": "普通游戏-5连线",
+			"nick_name": "5连线"
+		}, {
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__11__5kind.json"],
+			"des": "普通游戏-5连线",
+			"nick_name": "5连线"
+		}, {
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__20__5kind.json"],
+			"des": "普通游戏-5连线",
+			"nick_name": "5连线"
+		}],
+		"free_game": [{
+			"rpc_name": "RESULT_RECALL",
+			"file": [
+				"g152__RESULT_RECALL__24__free_20241106171000_0__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_1__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_2__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_3__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_4__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_5__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_6__spec.json",
+				"g152__RESULT_RECALL__24__free_20241106171000_7__spec.json"
+			],
+			"des": "免费游戏-5连线-d大奖",
+			"nick_name": "free-5连线-d大奖"
+		}, {
+			"rpc_name": "//RESULT_RECALL",
+			"file": [
+				"g152__RESULT_RECALL__16__free_0__spec.json",
+				"g152__RESULT_RECALL__16__free_1__spec.json",
+				"g152__RESULT_RECALL__16__free_2__spec.json",
+				"g152__RESULT_RECALL__16__free_3__spec.json",
+				"g152__RESULT_RECALL__16__free_4__spec.json",
+				"g152__RESULT_RECALL__16__free_5__spec.json",
+				"g152__RESULT_RECALL__16__free_6__spec.json",
+				"g152__RESULT_RECALL__16__free_7__spec.json"
+			],
+			"des": "免费游戏",
+			"nick_name": "free"
+		}],
+		"slow_motion": [{
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__25__slow_motion.json"],
+			"des": "滚轮长滚动",
+			"nick_name": "1、2列滚轮出财神"
+		}],
+		"big_win": [{
+			"rpc_name": "RESULT_RECALL",
+			"file": ["g152__RESULT_RECALL__7__big_win.json"],
+			"des": "大奖",
+			"nick_name": "大奖"
+		}]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"gameState": 3,
+	"lineNum": 1,
+	"curRound": 2,
+	"maxRound": 9,
+	"num": 9,
+	"lineMark": 25,
+	"lottery": [0, 0, 0, 0],
+	"jackpotlottery": [0.0, 0.0, 0.0, 0.0],
+	"jackpotout": [10000515.0, 4000515.0, 401030.0, 201030.0],
+	"jackpotold": [0.0, 0.0, 0.0, 0.0],
+	"linkData": [{
+		"icon": 3,
+		"link": 4,
+		"reward": 160
+	}, {
+		"icon": 0,
+		"link": 0,
+		"reward": 0
+	}, {
+		"icon": 0,
+		"link": 0,
+		"reward": 0
+	}]
+}

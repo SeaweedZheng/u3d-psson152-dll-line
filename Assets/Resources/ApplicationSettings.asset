@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66f75f9c0ad434daa9b0c4338e1541, type: 3}
+  m_Name: ApplicationSettings
+  m_EditorClassIdentifier: 
+  isMachine: 1
+  isRelease: 1
+  isMock: 0
+  isUseProtectApplication: 0
+  platformName: PssOn00152Line
+  gameTheme: GOOD FORTUNE RETURNS
+  agentName: "\u51FA\u8D27\u4EA7\u54C1\u5305\uFF08\u6D4B\u8BD5\u5305\uFF09"
+  appKey: PssOn00152Line_release_machine_20250923172835
+  appVersion: 3.1.0
+  resourceServer: http://8.138.140.180:8124
+  machineDebugUrl: 192.168.3.99:8092
+  reportUrl: http://192.168.3.152/api/game_log/caishen
+  posterUrl: 
+  logoUrl: Assets/Resources/Common/Sprites/g152_icon.png
+  dbName: Games.db
+  isTestUseHotfixAtEditor: 0
+  isTestMachineButtonAtEditor: 0

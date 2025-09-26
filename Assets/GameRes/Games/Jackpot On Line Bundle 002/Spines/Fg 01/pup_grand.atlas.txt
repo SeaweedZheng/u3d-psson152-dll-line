@@ -1,0 +1,153 @@
+
+pup_grand.png
+size: 2008,1660
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3d text_GRAND
+  rotate: true
+  xy: 1766, 1079
+  size: 579, 238
+  orig: 587, 244
+  offset: 4, 4
+  index: -1
+3d text_MAJJOR
+  rotate: false
+  xy: 742, 138
+  size: 547, 199
+  orig: 547, 199
+  offset: 0, 0
+  index: -1
+3d text_MINI
+  rotate: false
+  xy: 2, 138
+  size: 738, 199
+  orig: 738, 199
+  offset: 0, 0
+  index: -1
+3d text_MINOR
+  rotate: true
+  xy: 1766, 522
+  size: 555, 198
+  orig: 555, 198
+  offset: 0, 0
+  index: -1
+eff/eff_glow_01/eff_glow_00
+  rotate: false
+  xy: 1766, 388
+  size: 219, 132
+  orig: 240, 170
+  offset: 21, 20
+  index: -1
+eff/eff_glow_01/eff_glow_24
+  rotate: false
+  xy: 1766, 388
+  size: 219, 132
+  orig: 240, 170
+  offset: 21, 20
+  index: -1
+eff/eff_glow_01/eff_glow_02
+  rotate: false
+  xy: 1559, 100
+  size: 252, 137
+  orig: 277, 177
+  offset: 25, 20
+  index: -1
+eff/eff_glow_01/eff_glow_04
+  rotate: false
+  xy: 1292, 233
+  size: 261, 135
+  orig: 287, 178
+  offset: 26, 21
+  index: -1
+eff/eff_glow_01/eff_glow_06
+  rotate: false
+  xy: 2, 3
+  size: 259, 133
+  orig: 293, 176
+  offset: 24, 21
+  index: -1
+eff/eff_glow_01/eff_glow_08
+  rotate: false
+  xy: 263, 5
+  size: 245, 131
+  orig: 293, 170
+  offset: 23, 17
+  index: -1
+eff/eff_glow_01/eff_glow_10
+  rotate: false
+  xy: 1555, 239
+  size: 230, 129
+  orig: 292, 171
+  offset: 22, 21
+  index: -1
+eff/eff_glow_01/eff_glow_12
+  rotate: true
+  xy: 1813, 153
+  size: 233, 124
+  orig: 288, 165
+  offset: 24, 23
+  index: -1
+eff/eff_glow_01/eff_glow_14
+  rotate: false
+  xy: 755, 4
+  size: 241, 132
+  orig: 282, 170
+  offset: 22, 21
+  index: -1
+eff/eff_glow_01/eff_glow_16
+  rotate: false
+  xy: 510, 3
+  size: 243, 133
+  orig: 274, 171
+  offset: 21, 21
+  index: -1
+eff/eff_glow_01/eff_glow_18
+  rotate: false
+  xy: 998, 3
+  size: 234, 133
+  orig: 266, 172
+  offset: 21, 21
+  index: -1
+eff/eff_glow_01/eff_glow_20
+  rotate: true
+  xy: 1291, 2
+  size: 229, 132
+  orig: 257, 171
+  offset: 22, 21
+  index: -1
+eff/eff_glow_01/eff_glow_22
+  rotate: true
+  xy: 1425, 4
+  size: 227, 132
+  orig: 249, 171
+  offset: 22, 20
+  index: -1
+popup_grand
+  rotate: false
+  xy: 2, 339
+  size: 1288, 449
+  orig: 1291, 449
+  offset: 2, 0
+  index: -1
+popup_major
+  rotate: true
+  xy: 1331, 370
+  size: 1288, 433
+  orig: 1291, 433
+  offset: 2, 0
+  index: -1
+popup_mini
+  rotate: false
+  xy: 2, 1225
+  size: 1327, 433
+  orig: 1329, 433
+  offset: 1, 0
+  index: -1
+popup_minior
+  rotate: false
+  xy: 2, 790
+  size: 1325, 433
+  orig: 1329, 433
+  offset: 2, 0
+  index: -1

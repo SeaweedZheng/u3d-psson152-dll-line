@@ -1,0 +1,34 @@
+
+jp_text.png
+size: 936,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grand
+  rotate: false
+  xy: 714, 2
+  size: 217, 140
+  orig: 564, 204
+  offset: 159, 26
+  index: -1
+Major
+  rotate: false
+  xy: 243, 2
+  size: 234, 140
+  orig: 564, 204
+  offset: 159, 26
+  index: -1
+Mini
+  rotate: false
+  xy: 2, 2
+  size: 239, 140
+  orig: 564, 204
+  offset: 159, 26
+  index: -1
+Minor
+  rotate: false
+  xy: 479, 2
+  size: 233, 140
+  orig: 564, 204
+  offset: 159, 26
+  index: -1

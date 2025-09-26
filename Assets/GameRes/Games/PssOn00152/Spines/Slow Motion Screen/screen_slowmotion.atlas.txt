@@ -1,0 +1,111 @@
+
+screen_slowmotion.png
+size: 366,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonus/bonus_00
+  rotate: false
+  xy: 2, 395
+  size: 360, 73
+  orig: 360, 150
+  offset: 0, 77
+  index: -1
+bonus/bonus_01
+  rotate: false
+  xy: 2, 732
+  size: 360, 91
+  orig: 360, 150
+  offset: 0, 57
+  index: -1
+bonus/bonus_02
+  rotate: false
+  xy: 2, 640
+  size: 360, 90
+  orig: 360, 150
+  offset: 0, 58
+  index: -1
+bonus/bonus_03
+  rotate: false
+  xy: 2, 124
+  size: 289, 81
+  orig: 360, 150
+  offset: 0, 67
+  index: -1
+bonus/bonus_04
+  rotate: false
+  xy: 2, 207
+  size: 287, 86
+  orig: 360, 150
+  offset: 0, 62
+  index: -1
+bonus/bonus_05
+  rotate: false
+  xy: 2, 928
+  size: 360, 102
+  orig: 360, 150
+  offset: 0, 47
+  index: -1
+bonus/bonus_06
+  rotate: false
+  xy: 2, 295
+  size: 306, 98
+  orig: 360, 150
+  offset: 54, 50
+  index: -1
+bonus/bonus_07
+  rotate: false
+  xy: 2, 68
+  size: 301, 54
+  orig: 360, 150
+  offset: 59, 95
+  index: -1
+bonus/bonus_08
+  rotate: false
+  xy: 2, 2
+  size: 221, 64
+  orig: 360, 150
+  offset: 129, 85
+  index: -1
+bonus/bonus_09
+  rotate: false
+  xy: 2, 825
+  size: 360, 101
+  orig: 360, 150
+  offset: 0, 47
+  index: -1
+bonus/bonus_10
+  rotate: false
+  xy: 2, 550
+  size: 360, 88
+  orig: 360, 150
+  offset: 0, 62
+  index: -1
+bonus/bonus_11
+  rotate: false
+  xy: 2, 470
+  size: 360, 78
+  orig: 360, 150
+  offset: 0, 72
+  index: -1
+bonus/bonus_12
+  rotate: true
+  xy: 310, 266
+  size: 127, 54
+  orig: 360, 150
+  offset: 54, 96
+  index: -1
+bonus/bonus_13
+  rotate: false
+  xy: 225, 17
+  size: 115, 49
+  orig: 360, 150
+  offset: 66, 100
+  index: -1
+bonus/bonus_14
+  rotate: true
+  xy: 293, 131
+  size: 133, 49
+  orig: 360, 150
+  offset: 65, 100
+  index: -1

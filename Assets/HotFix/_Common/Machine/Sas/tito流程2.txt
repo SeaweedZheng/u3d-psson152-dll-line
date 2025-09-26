@@ -1,0 +1,76 @@
+消息事件JSON
+
+{
+    eventId  int   整数，0 -- bill in ,1 -- ticket in  2 -- ticket out  3 --- ticket in (EGM 接受的事件ID) 
+	4 -- ticket out (EGM接受的事件ID)    5 -- 票已打印  ，0，1，2，5是SAS分机位接受的事件ID
+    data  string  不要JSON，直接字符串，如果有多个，“，”分割，定义每个分割定义
+}
+
+
+1、bill in 流程
+
+    id =0
+   data 例子 10000，12345  面值（分），序列号 
+   同时保存在redis,key使用48
+
+
+2、ticket in流程
+
+   1）id =1 【rpc up】
+        data : 票号
+
+   2）id =3 【rpc down 监听redis通道3】
+        状态，金额（分），如：0，12345 表示合法票，金额是123.45
+       如果第一位不是0，就非法票，不用上分
+	   
+   3）id = 6 【rpc up】 (票已经接受) sas分机位接受
+         data : 1，票号  如："0，5675765761236575645" 表示票没进; "1，5675765761236575645" 则表示票进去了
+   
+   
+
+3、ticket out流程
+
+    1）id =2 发送 【rpc up】
+         data : 12345(分) 金额123.45
+		 
+    2）id =4 监听 【rpc down 监听redis通道4】
+       data :票号
+	   
+	   -- 打印
+	   
+	   
+    3）id = 5 (票已经打印) sas分机位接受 【rpc up】
+         data : 票号
+		 
+		-- 算法卡走下分
+		 
+		 
+		 
+		 
+===============
+		 
+		 
+1====入票 票号
+* 【sas】机进票。获取票号（TICKET_IN事件）
+* 告诉【sas】redis票号（id=1）
+* 监听redis通道3，得到票对应的金额。
+* 告诉sas机收取该票（code=0）,  或者 拒绝该票（code != 0）
+* sas机收票的回调，告诉【sas】redis票已经接受（id=6），写算发卡上分。	 
+
+
+
+2====出票 票号
+* 告诉【sas】redis要打印的金额（id=2）
+* 监听redis通道4，得到票号。
+* 向算发卡获取seqid，950打印机打印（seqid + 票号）。
+* 打印完成向【sas】redis上报出票结果（发票号）（id=5）
+* 写算发卡下分。	 
+
+
+
+		 
+		 
+    
+  
+  
+         

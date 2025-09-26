@@ -1,0 +1,363 @@
+
+symbol_06.png
+size: 656,2036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 1295
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1
+frame
+  rotate: true
+  xy: 2, 1021
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1
+frame_light
+  rotate: false
+  xy: 2, 1569
+  size: 350, 464
+  orig: 372, 492
+  offset: 12, 14
+  index: -1
+frame_win
+  rotate: true
+  xy: 2, 747
+  size: 272, 360
+  orig: 272, 360
+  offset: 0, 0
+  index: -1
+leaf/leaf_00
+  rotate: false
+  xy: 2, 52
+  size: 178, 91
+  orig: 194, 128
+  offset: 6, 28
+  index: -1
+leaf/leaf_01
+  rotate: false
+  xy: 182, 52
+  size: 178, 91
+  orig: 194, 128
+  offset: 6, 28
+  index: -1
+leaf/leaf_02
+  rotate: true
+  xy: 351, 187
+  size: 180, 89
+  orig: 194, 128
+  offset: 6, 30
+  index: -1
+leaf/leaf_03
+  rotate: true
+  xy: 364, 1101
+  size: 180, 85
+  orig: 194, 128
+  offset: 6, 34
+  index: -1
+leaf/leaf_04
+  rotate: true
+  xy: 362, 3
+  size: 182, 81
+  orig: 194, 128
+  offset: 6, 40
+  index: -1
+leaf/leaf_05
+  rotate: true
+  xy: 439, 379
+  size: 182, 77
+  orig: 194, 128
+  offset: 6, 44
+  index: -1
+leaf/leaf_06
+  rotate: true
+  xy: 521, 200
+  size: 182, 73
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_07
+  rotate: true
+  xy: 523, 1667
+  size: 182, 72
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_08
+  rotate: true
+  xy: 523, 16
+  size: 182, 71
+  orig: 194, 128
+  offset: 6, 50
+  index: -1
+leaf/leaf_09
+  rotate: true
+  xy: 523, 1851
+  size: 182, 73
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_10
+  rotate: true
+  xy: 451, 1120
+  size: 182, 75
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_11
+  rotate: true
+  xy: 453, 936
+  size: 182, 75
+  orig: 194, 128
+  offset: 6, 50
+  index: -1
+leaf/leaf_12
+  rotate: true
+  xy: 445, 1850
+  size: 183, 76
+  orig: 194, 128
+  offset: 6, 49
+  index: -1
+leaf/leaf_13
+  rotate: true
+  xy: 459, 752
+  size: 182, 75
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_14
+  rotate: true
+  xy: 530, 1120
+  size: 182, 70
+  orig: 194, 128
+  offset: 6, 50
+  index: -1
+leaf/leaf_15
+  rotate: true
+  xy: 530, 1347
+  size: 182, 67
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_16
+  rotate: true
+  xy: 536, 824
+  size: 180, 67
+  orig: 194, 128
+  offset: 8, 46
+  index: -1
+leaf/leaf_17
+  rotate: true
+  xy: 450, 1304
+  size: 176, 78
+  orig: 194, 128
+  offset: 10, 36
+  index: -1
+leaf/leaf_18
+  rotate: true
+  xy: 364, 747
+  size: 170, 93
+  orig: 194, 128
+  offset: 12, 22
+  index: -1
+leaf/leaf_19
+  rotate: false
+  xy: 2, 230
+  size: 166, 101
+  orig: 194, 128
+  offset: 12, 12
+  index: -1
+leaf/leaf_20
+  rotate: false
+  xy: 170, 440
+  size: 166, 107
+  orig: 194, 128
+  offset: 12, 8
+  index: -1
+leaf/leaf_21
+  rotate: false
+  xy: 2, 458
+  size: 166, 109
+  orig: 194, 128
+  offset: 12, 6
+  index: -1
+leaf/leaf_22
+  rotate: false
+  xy: 2, 333
+  size: 168, 105
+  orig: 194, 128
+  offset: 12, 8
+  index: -1
+leaf/leaf_23
+  rotate: false
+  xy: 172, 337
+  size: 172, 101
+  orig: 194, 128
+  offset: 11, 14
+  index: -1
+leaf/leaf_24
+  rotate: false
+  xy: 172, 238
+  size: 174, 97
+  orig: 194, 128
+  offset: 10, 22
+  index: -1
+leaf/leaf_25
+  rotate: true
+  xy: 354, 1673
+  size: 178, 89
+  orig: 194, 128
+  offset: 8, 30
+  index: -1
+leaf/leaf_26
+  rotate: true
+  xy: 364, 1283
+  size: 181, 84
+  orig: 194, 128
+  offset: 6, 40
+  index: -1
+leaf/leaf_27
+  rotate: true
+  xy: 442, 195
+  size: 182, 77
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_28
+  rotate: true
+  xy: 477, 568
+  size: 182, 75
+  orig: 194, 128
+  offset: 6, 50
+  index: -1
+leaf/leaf_29
+  rotate: true
+  xy: 445, 1666
+  size: 182, 76
+  orig: 194, 128
+  offset: 6, 50
+  index: -1
+leaf/leaf_30
+  rotate: true
+  xy: 518, 384
+  size: 182, 75
+  orig: 194, 128
+  offset: 6, 48
+  index: -1
+leaf/leaf_31
+  rotate: true
+  xy: 445, 11
+  size: 182, 76
+  orig: 194, 128
+  offset: 6, 46
+  index: -1
+leaf/leaf_32
+  rotate: true
+  xy: 449, 1482
+  size: 182, 76
+  orig: 194, 128
+  offset: 6, 46
+  index: -1
+leaf/leaf_33
+  rotate: true
+  xy: 394, 563
+  size: 182, 81
+  orig: 194, 128
+  offset: 6, 40
+  index: -1
+leaf/leaf_34
+  rotate: true
+  xy: 364, 1466
+  size: 180, 83
+  orig: 194, 128
+  offset: 6, 36
+  index: -1
+leaf/leaf_35
+  rotate: true
+  xy: 364, 919
+  size: 180, 87
+  orig: 194, 128
+  offset: 6, 32
+  index: -1
+leaf/leaf_36
+  rotate: true
+  xy: 354, 1853
+  size: 180, 89
+  orig: 194, 128
+  offset: 6, 30
+  index: -1
+leaf/leaf_37
+  rotate: false
+  xy: 170, 145
+  size: 179, 91
+  orig: 194, 128
+  offset: 6, 28
+  index: -1
+leaf/leaf_38
+  rotate: true
+  xy: 346, 369
+  size: 178, 91
+  orig: 194, 128
+  offset: 6, 28
+  index: -1
+orange
+  rotate: true
+  xy: 214, 549
+  size: 196, 178
+  orig: 198, 180
+  offset: 1, 1
+  index: -1
+orange_s
+  rotate: false
+  xy: 2, 569
+  size: 210, 176
+  orig: 218, 194
+  offset: 4, 2
+  index: -1
+small1
+  rotate: false
+  xy: 554, 602
+  size: 97, 98
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+small1_s
+  rotate: true
+  xy: 530, 1006
+  size: 112, 109
+  orig: 120, 120
+  offset: 4, 4
+  index: -1
+small2
+  rotate: true
+  xy: 554, 702
+  size: 120, 83
+  orig: 122, 86
+  offset: 1, 2
+  index: -1
+small2_s
+  rotate: true
+  xy: 527, 1531
+  size: 134, 96
+  orig: 142, 104
+  offset: 4, 2
+  index: -1
+wood
+  rotate: false
+  xy: 595, 473
+  size: 40, 75
+  orig: 42, 78
+  offset: 1, 1
+  index: -1
+wood_s
+  rotate: false
+  xy: 595, 384
+  size: 54, 87
+  orig: 60, 96
+  offset: 4, 4
+  index: -1

@@ -1,0 +1,286 @@
+
+jp_full.png
+size: 2026,972
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JP_coin/JP_coin_00
+  rotate: false
+  xy: 2, 312
+  size: 332, 332
+  orig: 340, 340
+  offset: 4, 4
+  index: -1
+JP_coin/JP_coin_01
+  rotate: true
+  xy: 352, 646
+  size: 324, 332
+  orig: 340, 340
+  offset: 12, 4
+  index: -1
+JP_coin/JP_coin_02
+  rotate: true
+  xy: 668, 333
+  size: 311, 332
+  orig: 340, 340
+  offset: 26, 4
+  index: -1
+JP_coin/JP_coin_03
+  rotate: true
+  xy: 1354, 680
+  size: 290, 334
+  orig: 340, 340
+  offset: 43, 3
+  index: -1
+JP_coin/JP_coin_04
+  rotate: true
+  xy: 2, 55
+  size: 255, 334
+  orig: 340, 340
+  offset: 65, 3
+  index: -1
+JP_coin/JP_coin_05
+  rotate: true
+  xy: 674, 121
+  size: 210, 334
+  orig: 340, 340
+  offset: 88, 3
+  index: -1
+JP_coin/JP_coin_06
+  rotate: true
+  xy: 1354, 525
+  size: 153, 334
+  orig: 340, 340
+  offset: 112, 3
+  index: -1
+JP_coin/JP_coin_07
+  rotate: true
+  xy: 674, 31
+  size: 88, 332
+  orig: 340, 340
+  offset: 138, 4
+  index: -1
+JP_coin/JP_coin_08
+  rotate: true
+  xy: 1020, 569
+  size: 88, 332
+  orig: 340, 340
+  offset: 114, 4
+  index: -1
+JP_coin/JP_coin_09
+  rotate: true
+  xy: 1690, 525
+  size: 153, 334
+  orig: 340, 340
+  offset: 75, 3
+  index: -1
+JP_coin/JP_coin_10
+  rotate: true
+  xy: 1002, 357
+  size: 210, 334
+  orig: 340, 340
+  offset: 42, 3
+  index: -1
+JP_coin/JP_coin_11
+  rotate: true
+  xy: 338, 57
+  size: 255, 334
+  orig: 340, 340
+  offset: 20, 3
+  index: -1
+JP_coin/JP_coin_12
+  rotate: true
+  xy: 1690, 680
+  size: 290, 334
+  orig: 340, 340
+  offset: 7, 3
+  index: -1
+JP_coin/JP_coin_13
+  rotate: true
+  xy: 1020, 659
+  size: 311, 332
+  orig: 340, 340
+  offset: 3, 4
+  index: -1
+JP_coin/JP_coin_14
+  rotate: true
+  xy: 686, 646
+  size: 324, 332
+  orig: 340, 340
+  offset: 4, 4
+  index: -1
+JP_coin_blur/JP_coin_blur_00
+  rotate: false
+  xy: 1390, 274
+  size: 143, 151
+  orig: 165, 165
+  offset: 11, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_01
+  rotate: false
+  xy: 1544, 121
+  size: 139, 151
+  orig: 165, 165
+  offset: 15, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_02
+  rotate: true
+  xy: 1390, 139
+  size: 133, 152
+  orig: 165, 165
+  offset: 21, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_03
+  rotate: true
+  xy: 1390, 15
+  size: 122, 152
+  orig: 165, 165
+  offset: 29, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_04
+  rotate: true
+  xy: 1008, 6
+  size: 105, 151
+  orig: 165, 165
+  offset: 39, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_05
+  rotate: true
+  xy: 1664, 278
+  size: 84, 151
+  orig: 165, 165
+  offset: 49, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_06
+  rotate: true
+  xy: 1867, 310
+  size: 59, 151
+  orig: 165, 165
+  offset: 59, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_07
+  rotate: true
+  xy: 1697, 7
+  size: 43, 151
+  orig: 165, 165
+  offset: 57, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_08
+  rotate: true
+  xy: 1697, 52
+  size: 70, 151
+  orig: 165, 165
+  offset: 40, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_09
+  rotate: true
+  xy: 1161, 2
+  size: 93, 151
+  orig: 165, 165
+  offset: 27, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_10
+  rotate: true
+  xy: 1544, 6
+  size: 113, 151
+  orig: 165, 165
+  offset: 17, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_11
+  rotate: false
+  xy: 1535, 274
+  size: 127, 151
+  orig: 165, 165
+  offset: 12, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_12
+  rotate: false
+  xy: 1685, 124
+  size: 135, 152
+  orig: 165, 165
+  offset: 11, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_13
+  rotate: false
+  xy: 1850, 4
+  size: 142, 151
+  orig: 165, 165
+  offset: 10, 7
+  index: -1
+JP_coin_blur/JP_coin_blur_14
+  rotate: false
+  xy: 1822, 157
+  size: 143, 151
+  orig: 165, 165
+  offset: 11, 7
+  index: -1
+black
+  rotate: false
+  xy: 1260, 97
+  size: 128, 72
+  orig: 128, 72
+  offset: 0, 0
+  index: -1
+coin/coin_f
+  rotate: true
+  xy: 1260, 171
+  size: 184, 128
+  orig: 330, 330
+  offset: 72, 37
+  index: -1
+coin/coin_f2
+  rotate: false
+  xy: 336, 314
+  size: 330, 330
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+coin/coin_side
+  rotate: true
+  xy: 2, 15
+  size: 38, 330
+  orig: 186, 330
+  offset: 74, 0
+  index: -1
+coin/coin_side3
+  rotate: true
+  xy: 1338, 427
+  size: 96, 329
+  orig: 186, 330
+  offset: 45, 1
+  index: -1
+flare
+  rotate: true
+  xy: 1010, 113
+  size: 242, 248
+  orig: 256, 256
+  offset: 10, 4
+  index: -1
+glow
+  rotate: false
+  xy: 1338, 400
+  size: 25, 25
+  orig: 50, 50
+  offset: 13, 12
+  index: -1
+particle
+  rotate: false
+  xy: 1669, 364
+  size: 196, 159
+  orig: 208, 167
+  offset: 5, 3
+  index: -1
+shine
+  rotate: false
+  xy: 2, 646
+  size: 348, 324
+  orig: 350, 350
+  offset: 1, 15
+  index: -1
+win_glow
+  rotate: false
+  xy: 1867, 371
+  size: 151, 152
+  orig: 159, 159
+  offset: 4, 3
+  index: -1

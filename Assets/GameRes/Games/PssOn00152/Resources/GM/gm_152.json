@@ -1,0 +1,27 @@
+{
+	"//游戏i52的gm测试指令":"",
+	"game_id":152,
+	"gm":{
+		"mock_5kind":{"data":"mock_gm:5kind","nick_name":"mk-5连线","des":"5连线"},
+		"mock_slow_motion":{"data":"mock_gm:slow_motion","nick_name":"mk-1、2列出财神","des":"1、2列出财神"},
+		"mock_free_spin":{"data":"mock_gm:free_game","nick_name":"mk-7局免费游戏","des":"7局免费游戏"},
+		"mock_spin":{"data":"gm:spin#file_name:g152__RESULT_RECALL__7#spin_data:<xmp>{\"msgid\":107,\"status_code\":0,\"result\":{\"module_id\":\"BS\",\"credit\":{\"low\":1220,\"high\":0,\"unsigned\":true},\"rng\":[59,63,62,17,62],\"win_line_group\":[{\"win_line_type\":0,\"line_no\":1,\"symbol_id\":4,\"pos\":[11,31,41,12,22,32,3,13,23],\"credit\":1200,\"multiplier\":12,\"credit_long\":{\"low\":1200,\"high\":0,\"unsigned\":true}},{\"win_line_type\":0,\"line_no\":2,\"symbol_id\":7,\"pos\":[21,31,2,13,33],\"credit\":20,\"multiplier\":2,\"credit_long\":{\"low\":20,\"high\":0,\"unsigned\":true}}],\"multiplier_alone\":1,\"mulitplier_pattern\":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],\"random_syb_pattern\":[],\"bonus_multiplier\":null,\"win_bonus_group\":[],\"be_locked_pattern\":[],\"position_pay\":[],\"reel_stack_pay\":[],\"golden_wild_flag\":[],\"pay_of_scatter\":[],\"capture_award\":null,\"win_line_multiple\":null,\"mystery\":null,\"jp\":null,\"overlap\":[],\"pay_of_pos\":[],\"golden_icon\":[],\"exp_wild\":[],\"pre_exp_wild\":[],\"trigger_respin_times\":null,\"push_wild\":[],\"typed_wild\":null,\"sub_result\":[],\"icon_accumulate\":null,\"scatter_type\":[],\"pre_scatter_type\":[],\"full_pay\":null,\"block_reel_index\":null,\"trigger_super_scatter\":[],\"strip_index\":null,\"cascade_result\":[],\"random_bonus_times\":null,\"bonus_multiplier_list\":[],\"bonus_multiplier_index\":null,\"col_cascade_count\":[],\"external_multiplier\":1,\"pre_no_win_acc\":null,\"no_win_acc\":null,\"respin_types\":[],\"respin_costs\":[],\"jackpot_rng\":null,\"jackpot_type\":null,\"capture_award_list\":[],\"capture_award_index\":null,\"golden_scatter_flag\":[],\"full_symbol\":null,\"pay_of_star\":[],\"collect_counter\":null,\"cur_collect_counter\":null,\"upgrade_id\":[],\"change_symbol_id\":null,\"full_symbol_pattern\":[],\"avg_bet\":null,\"trigger_bonus_total_bet\":null,\"respin_reels\":[],\"cent_in_ask\":[],\"next_strip_index\":null,\"bonus_bet_list\":[],\"last_player_opt_index\":null,\"cur_star_counts\":[],\"total_star_times\":[],\"bonus_star_times\":[],\"cur_random_prize\":[],\"pool_info\":null,\"crush_syb_pattern\":[],\"bonus_symbol_pos\":null,\"arcade_mario_bar\":null,\"race_game_data\":null,\"coin_pusher_data\":null,\"arcade_monopoly\":null,\"player_data\":null,\"village_infor\":null,\"arcade_football\":null,\"arcade_tamagotchi\":null,\"record_list\":[]},\"player_cent\":{\"low\":1012370,\"high\":0,\"unsigned\":true},\"next_module\":\"BS\",\"cur_module_play_times\":1,\"cur_module_total_times\":1,\"member_info\":null,\"ups_data\":null,\"marquee_data\":[]}</xmp>"
+			,"nick_name":"mk-中多线","des":"中多线"},
+		"big_win":{"data":"mock_gm:big_win","nick_name":"大奖","des":"大奖"},
+		"jackpot_hall":{"data":"tool_jackpot:jackpot_hall#win_credit:3000","nick_name":"联网彩金","des":"联网彩金"},
+		"jackpot_hall_1":{"data":"tool_event#event_name:jackpotHall#event_data:<xmp>{\"macId\":152,\"seat\":1,\"win\":3000,\"jackpotId\":1,\"orderId\":10001,\"time\":1735885421}</xmp>","nick_name":"联网彩金1","des":"联网彩金1"},
+		"//mini_game1":{"data":"reel:<xmp>4,5,6,7,8#1,2,3,4,5#1,1,1,2,2</xmp>#flag1:3","nick_name":"mk-小游戏1","des":"小游戏1"},
+		"//mini_game2":{"data":"reel:<xmp>4,5,6,7,8#1,2,3,4,5#1,1,1,2,2</xmp>#flag1:3","nick_name":"mk-小游戏2","des":"小游戏2"},
+		"//mini_game3":{"data":"reel:<xmp>4,5,6,7,8#1,2,3,4,5#1,1,1,2,2</xmp>#flag1:3","nick_name":"mk-小游戏3","des":"小游戏3"},
+		"//free_game":{},			
+		"//jackpot1":{},
+		"//jackpot2":{},
+		"//jackpot3":{"data":"reel:<xmp>4,5,6,7,8#1,2,3,4,5#1,1,1,2,2</xmp>#flag1:3"},	
+		"//jackpot_grand":{},
+		"//jackpot_minor":{},
+		"//jackpot_major":{},		
+		"//jackpot_mini":{},	
+		"//rich_hits":{},
+		"//multiple_reward":{},	
+	}
+}

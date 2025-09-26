@@ -1,0 +1,174 @@
+
+win_title.png
+size: 2152,2012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big win_sch
+  rotate: true
+  xy: 1238, 15
+  size: 760, 412
+  orig: 768, 420
+  offset: 4, 4
+  index: -1
+electriclight08/electriclight08 _03
+  rotate: true
+  xy: 1808, 1516
+  size: 141, 206
+  orig: 154, 218
+  offset: 7, 6
+  index: -1
+electriclight08/electriclight08 _04
+  rotate: true
+  xy: 1808, 1831
+  size: 178, 210
+  orig: 192, 222
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _05
+  rotate: true
+  xy: 1808, 1348
+  size: 166, 191
+  orig: 180, 204
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _06
+  rotate: true
+  xy: 1808, 1348
+  size: 166, 191
+  orig: 180, 204
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _07
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+electriclight08/electriclight08 _20
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+electriclight08/electriclight08 _08
+  rotate: false
+  xy: 2001, 1340
+  size: 136, 174
+  orig: 150, 186
+  offset: 8, 6
+  index: -1
+electriclight08/electriclight08 _09
+  rotate: true
+  xy: 1808, 1659
+  size: 170, 206
+  orig: 182, 220
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _10
+  rotate: true
+  xy: 1818, 43
+  size: 214, 200
+  orig: 226, 212
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _11
+  rotate: true
+  xy: 1818, 43
+  size: 214, 200
+  orig: 226, 212
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _12
+  rotate: true
+  xy: 1652, 23
+  size: 234, 164
+  orig: 248, 176
+  offset: 8, 4
+  index: -1
+electriclight08/electriclight08 _14
+  rotate: false
+  xy: 2016, 1659
+  size: 86, 160
+  orig: 102, 172
+  offset: 8, 6
+  index: -1
+electriclight08/electriclight08 _15
+  rotate: false
+  xy: 2020, 1821
+  size: 110, 188
+  orig: 122, 200
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _16
+  rotate: false
+  xy: 2020, 1821
+  size: 110, 188
+  orig: 122, 200
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _17
+  rotate: false
+  xy: 1992, 1176
+  size: 155, 162
+  orig: 170, 176
+  offset: 7, 6
+  index: -1
+electriclight08/electriclight08 _18
+  rotate: false
+  xy: 1808, 1184
+  size: 182, 162
+  orig: 194, 174
+  offset: 6, 6
+  index: -1
+electriclight08/electriclight08 _19
+  rotate: true
+  xy: 2020, 91
+  size: 166, 128
+  orig: 182, 144
+  offset: 8, 8
+  index: -1
+fx_particle_01
+  rotate: false
+  xy: 438, 695
+  size: 76, 76
+  orig: 104, 104
+  offset: 14, 14
+  index: -1
+mega win_sch
+  rotate: true
+  xy: 2, 695
+  size: 1314, 434
+  orig: 1322, 442
+  offset: 4, 4
+  index: -1
+particle3_b
+  rotate: true
+  xy: 1652, 259
+  size: 516, 492
+  orig: 522, 498
+  offset: 2, 4
+  index: -1
+super win_sch
+  rotate: true
+  xy: 438, 773
+  size: 1236, 682
+  orig: 1242, 690
+  offset: 2, 4
+  index: -1
+ultimate win_sch
+  rotate: true
+  xy: 1122, 777
+  size: 1232, 684
+  orig: 1238, 692
+  offset: 2, 4
+  index: -1
+ultra win_sch
+  rotate: false
+  xy: 2, 5
+  size: 1234, 688
+  orig: 1242, 694
+  offset: 4, 2
+  index: -1
