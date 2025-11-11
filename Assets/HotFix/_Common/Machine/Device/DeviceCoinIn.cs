@@ -12,6 +12,7 @@ using _consoleBB = PssOn00152.ConsoleBlackboard02;
 public partial class DeviceCoinIn : MonoSingleton<DeviceCoinIn>
 {
 
+
     const string COR_COIN_IN_OUT_TIME = "COR_COIN_IN_OUT_TIME";
     const string DEVICE_COIN_IN_ORDER = "device_coin_in_order";
     const string DEVICE_COIN_IN_NUM = "device_coin_in_num";
@@ -91,22 +92,47 @@ public partial class DeviceCoinIn : MonoSingleton<DeviceCoinIn>
         }
     }
 
-    
+    #region 一边投币一边玩，导致ui金额显示不对（后台账目是对的）
+    /// <summary>
+    /// 一边投币一边玩，导致ui金额显示不对（后台账目是对的）
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator RequstToRealCredit()
+    {
+        yield return new WaitForSecondsRealtime(4f);
+
+        if (BlackboardUtils.IsBlackboard("./") && BlackboardUtils.GetValue<bool>("./isAuto"))
+            yield break;
+
+        if (BlackboardUtils.IsBlackboard("./")  && BlackboardUtils.GetValue<bool>("./isSpin"))
+            yield break;
+
+        MainBlackboardController.Instance.SyncMyTempCreditToReal(true);
+    }
+    //投币过程中，遇见玩游戏时，等投币结束后请求同步玩家金额
+    const string COR_COIN_IN_REQUEST_TO_REAL_CREDIT = "COR_COIN_IN_REQUEST_TO_REAL_CREDIT";
+    #endregion
+
     private void OnHardwareCoinIn(CoinInData coinInData)
     {
 
-        DebugUtils.LogWarning($"CoinIn id = {coinInData.id} value = {coinInData.coinNum}");
+        //DebugUtils.LogWarning($"CoinIn id = {coinInData.id} value = {coinInData.coinNum}");
 
         if (coinInData.coinNum <= 0)
         {
             return;
         }
 
-        if (BlackboardUtils.IsBlackboard("./") && BlackboardUtils.GetValue<bool>("./isSpin"))
-        {
-            BlackboardUtils.SetValue<bool>("./isRequestToRealCreditWhenStop",true);
-        }
 
+        #region 一边投币一边玩，导致ui金额显示不对（后台账目是对的）
+
+        bool isRequestToRealCredit = BlackboardUtils.IsBlackboard("./") && BlackboardUtils.GetValue<bool>("./isSpin");
+
+        //每次投币时，重置任务
+        if (isRequestToRealCredit || IsCor(COR_COIN_IN_REQUEST_TO_REAL_CREDIT))
+            DoCor(COR_COIN_IN_REQUEST_TO_REAL_CREDIT, RequstToRealCredit()); //延时避免重复触发
+
+        #endregion
 
 
 

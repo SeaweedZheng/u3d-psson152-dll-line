@@ -217,7 +217,7 @@ public class MachineDeviceCommonBiz : MonoSingleton<MachineDeviceCommonBiz>
 
 
     public void PrinterJCM950(string orderId = "011058314280279645", double money = 512.32, Action<int, string> onSuccessCallback = null) =>
-        DeviceSasTicketInOut.Instance.PrinterJCM950(orderId, money, (code , msg) =>
+        DeviceSasTicketInOut.Instance.PrinterJCM950(orderId, money, (code, msg) =>
         {
             Debug.Log($"JCM950 , code: {code} , msg: {msg}");
         });
@@ -466,7 +466,7 @@ public void DoCheckPrinterIsBusy(Epic950Printer printer, Action onSuccessCallbac
 
 
     /// <summary> ºÏ≤Èsas£¨≥¢ ‘¡¥Ω”</summary>
-    public void CheckSas()=> DeviceSasTicketInOut.Instance.CheckSas();
+    public void CheckSas() => DeviceSasTicketInOut.Instance.CheckSas();
 
     /// <summary> ºÏ≤È«Æœ‰£¨≥¢ ‘¡¥Ω”</summary>
     public void CheckMoneyBox()
@@ -493,13 +493,13 @@ public void DoCheckPrinterIsBusy(Epic950Printer printer, Action onSuccessCallbac
     public void CheckBonusReport() => DeviceBonusReport.Instance.CheckBonusReport();
 
 
-    public void SetLevel()=> SlotDllAlgorithmG152Manager.Instance.SetLevel(_consoleBB.Instance.dllLevelIndex);
-    
-    public int GetLevel()=> SlotDllAlgorithmG152Manager.Instance.GetLevel();
+    public void SetLevel() => SlotDllAlgorithmG152Manager.Instance.SetLevel(_consoleBB.Instance.dllLevelIndex);
+
+    public int GetLevel() => SlotDllAlgorithmG152Manager.Instance.GetLevel();
 
     public string GetLevelName()
     {
-         int levelIndex = SlotDllAlgorithmG152Manager.Instance.GetLevel();
+        int levelIndex = SlotDllAlgorithmG152Manager.Instance.GetLevel();
 
         return levelIndex >= 0 && levelIndex < levelLst.Length ? levelLst[levelIndex] : $"index: {levelIndex}";
     }

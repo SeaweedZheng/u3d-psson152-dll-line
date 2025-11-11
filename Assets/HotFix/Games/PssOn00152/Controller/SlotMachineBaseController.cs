@@ -409,7 +409,7 @@ namespace SlotMaker
                     }
                 }
             }
-
+    
             // 关掉所有线
             foreach (Transform tfmLine in tfmPayLines)
             {

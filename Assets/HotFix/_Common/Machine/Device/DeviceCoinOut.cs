@@ -276,7 +276,9 @@ public class DeviceCoinOut :  MonoSingleton<DeviceCoinOut> //  CorBehaviour
     
     /// <summary> 针对1分多票的ui下分动画 </summary>
     int hashCointOutCreditForTicketPerCredit = 0;
-   // int hasCoint
+    // int hasCoint
+
+
 
     /// <summary>
     /// 硬件退票响应
@@ -305,6 +307,7 @@ public class DeviceCoinOut :  MonoSingleton<DeviceCoinOut> //  CorBehaviour
             //ShowCoinOutErrorTip();
             return;
         }
+
 
 
         DoCor(COR_IS_COIN_OUT_ING, DoTask(() => { }, 4001)); //延时避免重复触发

@@ -334,8 +334,12 @@ namespace PssOn00152
         /// </remarks>
         public override void ReelToStopOrTurnOnce(UnityAction action = null)
         {
-            if (this.reelStopCallback != null)
+            //if (this.reelStopCallback != null)  // ??? ÓÐbug ??  if (action != null) 
+            //    this.reelStopCallback = action;
+
+            if (action != null)
                 this.reelStopCallback = action;
+
 
             if (state == ReelState.StartStop) //¿ªÊ¼Í£Ö¹
                 return;

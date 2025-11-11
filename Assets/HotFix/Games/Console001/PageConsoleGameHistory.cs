@@ -8,7 +8,7 @@ using UnityEngine.UI;
 using System;
 using TMPro;
 using SimpleJSON;
-using _consoleBB = PssOn00152.ConsoleBlackboard02;
+
 
 
 

@@ -1326,12 +1326,12 @@ namespace PssOn00152
                 successCallback.Invoke(); 
 
 
-            // 游戏过程中进行上分 或 投币
+            /* 游戏过程中进行上分 或 投币
             if (_contentBB.Instance.isRequestToRealCreditWhenStop)
             {
                 MainBlackboardController.Instance.SyncMyTempCreditToReal(true);
                 _contentBB.Instance.isRequestToRealCreditWhenStop = false;
-            }
+            }*/
         }
 
 

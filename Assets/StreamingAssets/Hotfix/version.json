@@ -1,10 +1,10 @@
 {
-  "updated_at": 1758885077971,
-  "hotfix_key": "hf_release_android_20250926191117",
-  "hotfix_version": "3.1.7",
+  "updated_at": 1762765905888,
+  "hotfix_key": "hf_debug_android_20250928173502",
+  "hotfix_version": "3.2.8",
   "asset_bundle": {
     "manifest": {
-      "hash": "9fe2f887e6ce7156c795311b05d91d3f"
+      "hash": "abff4e267b37e7ee8a07a306942f0216"
     },
     "bundle_hash": {
       "_common/game maker/abs/152/datas/game_info_g152.unity3d": "2c9d6b03a47e47cdbf609b2c31e37f4e",
@@ -317,13 +317,13 @@
   },
   "hotfix_dll": {
     "Base": {
-      "hash": "89d90e34cd4f1962d7b3afa84d75def5"
+      "hash": "345d22fe951335273abe6cbc461932f8"
     },
     "HotFix": {
-      "hash": "2d7c0a444e2f41d96d2e7c4f58e7c60e"
+      "hash": "74a22daa6466b3782932cdc30fdeba14"
     },
     "LuBan": {
-      "hash": "e924d361859416ceda885ecba8a10900"
+      "hash": "ef947b7c49a952059f5668cf2c1ee48e"
     }
   },
   "asset_backup": {
