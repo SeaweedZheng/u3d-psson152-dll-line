@@ -6,6 +6,7 @@ using SlotDllAlgorithmG152;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -509,7 +510,20 @@ public void DoCheckPrinterIsBusy(Epic950Printer printer, Action onSuccessCallbac
     /*
     * 获取波动分数
     */
-    public int GetWaveScore() => SlotDllAlgorithmG152Manager.Instance.GetWaveScore();
+    public int GetWaveScore() {
+
+        int waveScore =  SlotDllAlgorithmG152Manager.Instance.GetWaveScore();
+
+
+        // 防止旧版本出现问题
+        if (!SlotDllAlgorithmG152Manager.Instance.waveScoreLst.Contains(waveScore))
+        {
+            SlotDllAlgorithmG152Manager.Instance.SetWaveScore(SlotDllAlgorithmG152Manager.Instance.waveScoreLst[0]);
+            waveScore = SlotDllAlgorithmG152Manager.Instance.GetWaveScore();
+        }
+        return waveScore;
+
+    }
 
     public int[] waveScoreLst => SlotDllAlgorithmG152Manager.Instance.waveScoreLst;
 

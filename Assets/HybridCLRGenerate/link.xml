@@ -91,6 +91,8 @@
     <type fullname="SlotDllAlgorithmG152.LinkData" preserve="all" />
     <type fullname="SlotDllAlgorithmG152.LinkInfo" preserve="all" />
     <type fullname="SlotDllAlgorithmG152.PullData" preserve="all" />
+    <type fullname="SlotDllAlgorithmG152.SaveRaid" preserve="all" />
+    <type fullname="SlotDllAlgorithmG152.SaveRaidInfo" preserve="all" />
     <type fullname="SlotDllAlgorithmG152.SboxIdeaGameState" preserve="all" />
     <type fullname="SlotDllAlgorithmG152.SlotData" preserve="all" />
     <type fullname="SlotDllAlgorithmG152.SlotDllInterfaceG152" preserve="all" />

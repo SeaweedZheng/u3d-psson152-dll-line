@@ -223,5 +223,18 @@ namespace SlotDllAlgorithmG152
 
 
 
+
+
+
+        [DllImport("msmatch")]
+        public static extern void DevGetRaid(ref SaveRaid raids);
+
+
+
+
+        [DllImport("msmatch")]
+        public static extern void DevSetRaid(ref SaveRaid spd);
+
+
     }
 }

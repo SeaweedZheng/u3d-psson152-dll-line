@@ -1,10 +1,10 @@
 {
-  "updated_at": 1762765905888,
-  "hotfix_key": "hf_debug_android_20250928173502",
-  "hotfix_version": "3.2.8",
+  "updated_at": 1763106180014,
+  "hotfix_key": "hf_release_android_20251113102852",
+  "hotfix_version": "3.1.21",
   "asset_bundle": {
     "manifest": {
-      "hash": "abff4e267b37e7ee8a07a306942f0216"
+      "hash": "49e23281fc713350e7f89204c2c6960d"
     },
     "bundle_hash": {
       "_common/game maker/abs/152/datas/game_info_g152.unity3d": "2c9d6b03a47e47cdbf609b2c31e37f4e",
@@ -123,7 +123,7 @@
       "games/console001/prefabs/popupconsolekeyboard 001.unity3d": "f040b620841edef76f20206e506d9f6a",
       "games/console001/prefabs/popupconsolekeyboard 002.unity3d": "dac2a420a6b4e8137f38692a829b7cd4",
       "games/console001/prefabs/popupconsolekeyboard 003.unity3d": "f00b523051c1587b248f7a29f7ae940f",
-      "games/console001/prefabs/popupconsolemachine id.unity3d": "eb02f839319014c99ac307513639ad83",
+      "games/console001/prefabs/popupconsolemachineid.unity3d": "b11a52272f856d62b74ee1b8ee9f29bf",
       "games/console001/prefabs/popupconsolemoneyboxredeem.unity3d": "8a3954e4c91e5a594b285802ba79db85",
       "games/console001/prefabs/popupconsolenotice.unity3d": "211e3ef687f3ba528e0830c47d6d1437",
       "games/console001/prefabs/popupconsolesetparameter 001.unity3d": "6395dcae519da22b3bb0b89e433f9018",
@@ -317,10 +317,10 @@
   },
   "hotfix_dll": {
     "Base": {
-      "hash": "345d22fe951335273abe6cbc461932f8"
+      "hash": "b76d18106189c77968a63f8b1be19908"
     },
     "HotFix": {
-      "hash": "74a22daa6466b3782932cdc30fdeba14"
+      "hash": "7fbc9db0e66a90064051849e39c2a7bc"
     },
     "LuBan": {
       "hash": "ef947b7c49a952059f5668cf2c1ee48e"

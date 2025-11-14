@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 3845758218192186036}
   - component: {fileID: 8530556608652150325}
   m_Layer: 5
-  m_Name: PopupConsoleMachine ID
+  m_Name: PopupConsoleMachineID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

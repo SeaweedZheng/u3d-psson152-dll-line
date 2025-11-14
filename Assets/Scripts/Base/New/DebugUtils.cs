@@ -5,7 +5,7 @@ using UnityEngine;
 public class DebugUtils 
 {
     private static DebugUtils instance;
-    private bool openDebug = true;
+    private bool openDebugLog = true;
     public static DebugUtils Instance
     {
         get
@@ -24,7 +24,7 @@ public class DebugUtils
     {
         if (res.name == "@console/isDebug")
         {
-            Instance.openDebug = (bool)res.value;
+            Instance.openDebugLog = (bool)res.value;
         }
     }
 
@@ -32,7 +32,7 @@ public class DebugUtils
     public static void Log(object msg)
     {
         //return;
-        if (Instance.openDebug == false)
+        if (Instance.openDebugLog == false)
             return;
 
         //DebugFilterDynamics.Instance.AnalysisDebug($"{msg}");
@@ -40,10 +40,17 @@ public class DebugUtils
 
         Debug.Log(msg);
     }
+    public static void LogFormat(string format, params object[] args)
+    {
+        if (Instance.openDebugLog == false)
+            return;
+        Debug.LogFormat(format, args);
+    }
+
 
     public static void LogWarning(object msg)
     {
-        if (Instance.openDebug == false)
+        if (Instance.openDebugLog == false)
             return;
 
         //DebugFilterDynamics.Instance.AnalysisDebug($"{msg}");
@@ -56,10 +63,53 @@ public class DebugUtils
     {
         Debug.LogError(msg);
     }
-
+    public static void LogErrorFormat(string format, params object[] args)
+    {
+        Debug.LogErrorFormat(format, args);
+    }
     public static void LogException(Exception exception)
     {
         Debug.LogException(exception);
     }
+
+
+
+
+    const string SAVE_LOG = "【Log】";
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="msg"></param>
+    /// <param name="type"></param>
+    /// <remarks>
+    /// * 不受日志开关的影响。
+    /// </remarks>
+    public static void Save(object msg, LogType type = LogType.Log)
+    {
+        try
+        {
+            string str = (string)msg;
+
+            if (!str.StartsWith(SAVE_LOG))
+                str = $"{SAVE_LOG}{str}";
+
+            switch (type)
+            {
+                case LogType.Log:
+                    {
+                        Debug.Log(str);
+                    }
+                    break;
+                case LogType.Warning:
+                    {
+                        Debug.LogWarning(str);
+                    }
+                    break;
+            }
+        }
+        catch (Exception e) { }
+    }
+
 
 }

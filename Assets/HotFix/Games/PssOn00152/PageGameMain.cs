@@ -588,7 +588,7 @@ namespace PssOn00152
             // 初始化彩金
             InitGameJackpot();
 
-
+            //DebugUtils.Save("i am debug save");
         }
 
 

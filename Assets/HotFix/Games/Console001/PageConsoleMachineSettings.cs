@@ -2110,10 +2110,7 @@ namespace Console001
                             callback2 = OnConfirmModify,
                         });
                     }
-
                 }
-
-
             }
         }
 

@@ -317,6 +317,7 @@ namespace SBoxApi
             }
         }
 
+        static int index = 100;
 
         /**
           *  @brief          底板主动上发的消息
@@ -326,6 +327,13 @@ namespace SBoxApi
           */
         private static void MessageR(SBoxPacket sBoxPacket)
         {
+            //#seaweed#
+            if (++index % 100 == 0 && index <= 900)
+            {
+                DebugUtils.Save($" MessageR sBoxPacket.data.Length: {sBoxPacket.data.Length}");
+            }
+
+
             //if (sBoxPacket.data.Length != 24)
             //{
             //    return;

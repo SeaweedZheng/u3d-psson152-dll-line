@@ -1,12 +1,9 @@
-using GameMaker;
 using System.Text;
 using System;
 using PssOn00152;
 using Newtonsoft.Json;
-using UnityEngine;
-using Spine.Unity;
-using JP;
-using System.Collections.Generic;
+using _consoleBB = PssOn00152.ConsoleBlackboard02;
+
 
 namespace SlotDllAlgorithmG152
 {
@@ -28,6 +25,32 @@ namespace SlotDllAlgorithmG152
         const string CACHE_ALGORITHM_G152_JACKPOT_DATA_SEL3 = "CACHE_ALGORITHM_G152_JACKPOT_DATA_SEL3";
 
         const string CACHR_ALGORITHM_G152_WAVE_SCORE = "CACHR_ALGORITHM_G152_WAVE_SCORE";  //波动分数 funded
+
+
+        //#seaweed# 新增加
+        const string CACHR_ALGORITHM_G152_RAID = "CACHR_ALGORITHM_G152_RAID";  // ？？
+
+
+        //#seaweed# 新增加
+        string curRaid
+        {
+            get
+            {
+                if (m_CurRaid == null)
+                {
+                    string str = SQLitePlayerPrefs03.Instance.GetString(CACHR_ALGORITHM_G152_RAID, "");
+                    if (!string.IsNullOrEmpty(str))
+                        m_CurRaid = str;
+                }
+                return m_CurRaid;
+            }
+            set
+            {
+                m_CurRaid = value;
+                SQLitePlayerPrefs03.Instance.SetString(CACHR_ALGORITHM_G152_RAID, m_CurRaid);
+            }
+        }
+        string m_CurRaid = null;
 
 
 
@@ -219,10 +242,13 @@ namespace SlotDllAlgorithmG152
         string m_CurSlotData = null;
 
 
-
+        /*
+        * 设置波动分数
+        */
         public void SetWaveScore(int waveScore)
         {
-            curWaveScore = waveScore.ToString();
+            waveScore *= _consoleBB.Instance.coinInScale;
+            curWaveScore = (waveScore).ToString();
             SlotDllInterfaceG152.DevSetWaveScore(waveScore);
         }
 
@@ -231,7 +257,10 @@ namespace SlotDllAlgorithmG152
         */
         public int GetWaveScore()
         {
-            return SlotDllInterfaceG152.DevGetWaveScore();
+            int waveScore = SlotDllInterfaceG152.DevGetWaveScore();
+            if (waveScore >= 10000)
+                waveScore = waveScore / _consoleBB.Instance.coinInScale;
+            return waveScore;
         }
 
         /*
@@ -262,6 +291,19 @@ namespace SlotDllAlgorithmG152
                 SlotDllInterfaceG152.DevInit((int)SboxIdeaGameState.NormalSpin, div, funded);
                 //Debug.LogError($"返还数据2：GameState: {(int)SboxIdeaGameState.NormalSpin}  div: {div}  funded: {funded} ");
             }
+
+
+
+            //#seaweed#  新增加     
+            if (!string.IsNullOrEmpty(curRaid))
+            {
+                SaveRaid saveRaid = JsonConvert.DeserializeObject<SaveRaid>(curRaid);
+                SlotDllInterfaceG152.DevSetRaid(ref saveRaid);
+                //DebugUtils.LogError($"返还数据：saveRaid: {saveRaid}  ");
+            }
+
+
+
 
 
             if (!string.IsNullOrEmpty(curPullData)
@@ -528,15 +570,34 @@ namespace SlotDllAlgorithmG152
             curSummary = JsonConvert.SerializeObject(pSummary);
 
 
-            // 中了彩金时，调用
-           /* for (int i = 0; i < 4; i++)
+
+
+            //#seaweed# 新增加
+            SaveRaid pSaveRaid = new SaveRaid();
+            pSaveRaid.mSaveRaidInfo = new SaveRaidInfo[4];
+            for (int i=0;i<4;i++)
             {
-                if (pLinkInfo.lottery[i] == 1)
-                {
-                    SlotDllInterfaceG152.DevJpEnd();
-                    break;
-                }
-            }*/
+                SaveRaidInfo pSaveRaidInfo = new SaveRaidInfo();
+                pSaveRaidInfo.mWaveRaid = new sbyte[32];
+
+                pSaveRaid.mSaveRaidInfo[i] = pSaveRaidInfo;
+            }
+
+            SlotDllInterfaceG152.DevGetRaid(ref pSaveRaid);
+            curRaid = JsonConvert.SerializeObject(pSaveRaid);
+
+
+
+
+            // 中了彩金时，调用
+            /* for (int i = 0; i < 4; i++)
+             {
+                 if (pLinkInfo.lottery[i] == 1)
+                 {
+                     SlotDllInterfaceG152.DevJpEnd();
+                     break;
+                 }
+             }*/
 
             SboxIdeaGameState state = (SboxIdeaGameState)gameState;
 
@@ -560,29 +621,34 @@ namespace SlotDllAlgorithmG152
         }
 
 
-
+        /// <summary>
+        /// 游戏难度
+        /// </summary>
+        /// <param name="level"></param>
         public void SetLevel(int level)
         {
             SlotDllInterfaceG152.DevSetLevel(level);
         }
 
-
+        /// <summary>
+        /// 游戏难度
+        /// </summary>
+        /// <returns></returns>
         public int GetLevel()
         {
             return SlotDllInterfaceG152.DevGetLevel();
         }
+
+        public string[] levelLst => new string[]
+        {
+            "1050","1000","995","990","985","980","975","970","965","960"
+        };
 
         /* public string[] levelLst => new string[]
          {
              "1.050","1.000","0.995","0.990","0.985","0.980","0.975","0.970","0.965","0.960"
          };
         */
-        public string[] levelLst => new string[]
-        {
-            "1050","1000","995","990","985","980","975","970","965","960"
-        };
-
-
         public void Clear()
         {
             SlotDllInterfaceG152.DevClear();

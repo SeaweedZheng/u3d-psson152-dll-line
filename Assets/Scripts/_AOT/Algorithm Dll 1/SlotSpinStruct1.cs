@@ -344,4 +344,34 @@ namespace SlotDllAlgorithmG152
         public JackpotTotal mJackpotTotal;   // 总量数据
     }
 
+
+
+
+    // 对应 C++ 的 _SaveRaidInfo 结构体
+    [StructLayout(LayoutKind.Sequential)]
+    public struct SaveRaidInfo
+    {
+        // uint8_t → C# byte（无符号1字节）
+        public byte mWaveIdx;
+
+        // int8_t[32] → C# sbyte[32]（有符号1字节数组）
+        // 必须用 MarshalAs 标注固定大小数组，否则 Marshal 会当成指针处理
+        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 32)]
+        public sbyte[] mWaveRaid;
+    }
+
+    // 对应 C++ 的 _SaveRaid 结构体
+    [StructLayout(LayoutKind.Sequential)]
+    public struct SaveRaid
+    {
+        // SaveRaidInfo[4] → C# SaveRaidInfo数组（固定4个元素）
+        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 4)]
+        public SaveRaidInfo[] mSaveRaidInfo;
+    }
+
+
+
+
+
+
 }
