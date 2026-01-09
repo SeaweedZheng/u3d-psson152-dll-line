@@ -9,5 +9,12 @@ C# 的 long 对应 C++ 的 int64_t（64 位有符号整数）；
 C# 的 double 对应 C++ 的 double（64 位双精度浮点数，两者完全一致）。
 		
 		
+
+# 资源服务器
+旧版的资源服务器（ftp）
+http://8.138.140.180:8124   -- 已经不能用
+
+
+新版的资源服务器地址（oss）  
 		
-		
+http://chresouce.oss-cn-guangzhou.aliyuncs.com

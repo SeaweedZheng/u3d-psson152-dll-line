@@ -5,9 +5,9 @@
       "agent_name": "出货产品包",
       "app": "--",
       "app_key": "PssOn00152Line_release_machine_20251111153000",
-      "app_version": "3.1.1",
+      "app_version": "3.1.0",
       "version_suggest": null,
-      "hotfix_url": "./Product/release/android/3_1_1"
+      "hotfix_url": "./Product/release/android/3_1_0"
     },
     {
       "agent_name": "出货产品包",
