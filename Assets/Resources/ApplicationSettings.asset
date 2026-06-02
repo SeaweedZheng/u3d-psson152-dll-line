@@ -19,8 +19,8 @@ MonoBehaviour:
   platformName: PssOn00152Line
   gameTheme: GOOD FORTUNE RETURNS
   agentName: "\u51FA\u8D27\u4EA7\u54C1\u5305"
-  appKey: PssOn00152Line_release_machine_20251111153000
-  appVersion: 3.1.0
+  appKey: PssOn00152Line_release_android_20260312113221
+  appVersion: 5.1.0
   resourceServer: http://chresouce.oss-cn-guangzhou.aliyuncs.com
   machineDebugUrl: 192.168.3.99:8092
   reportUrl: http://192.168.3.152/api/game_log/caishen
